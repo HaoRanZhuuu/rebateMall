@@ -1,0 +1,37 @@
+2019-04-18 16:55:28,089 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 11304 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-18 16:55:28,116 - No active profile set, falling back to default profiles: default
+2019-04-18 16:55:32,076 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-18 16:55:32,298 - Finished Spring Data repository scanning in 212ms. Found 3 repository interfaces.
+2019-04-18 16:55:32,885 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cafc5d6a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-18 16:55:34,186 - Tomcat initialized with port(s): 8080 (http)
+2019-04-18 16:55:34,233 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-18 16:55:34,242 - Starting service [Tomcat]
+2019-04-18 16:55:34,242 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-18 16:55:34,249 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-18 16:55:34,604 - Initializing Spring embedded WebApplicationContext
+2019-04-18 16:55:34,605 - Root WebApplicationContext: initialization completed in 6246 ms
+2019-04-18 16:55:35,170 - HikariPool-1 - Starting...
+2019-04-18 16:55:35,564 - HikariPool-1 - Start completed.
+2019-04-18 16:55:36,275 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-18 16:55:37,362 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-18 16:55:37,363 - HHH000206: hibernate.properties not found
+2019-04-18 16:55:38,180 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-18 16:55:38,587 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-18 16:55:40,137 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-18 16:55:40,720 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-18 16:55:41,034 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-18 16:55:41,200 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-18 16:55:41,803 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-18 16:55:41,828 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-18 16:55:41,831 - Started RebatemallApplication in 17.256 seconds (JVM running for 20.825)
+2019-04-18 16:56:02,504 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-18 16:56:02,505 - Initializing Servlet 'dispatcherServlet'
+2019-04-18 16:56:02,517 - Completed initialization in 12 ms
+2019-04-18 16:56:02,965 - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-18 16:58:58,536 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2019-04-18 16:59:11,630 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2019-04-18 16:59:12,659 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2019-04-18 16:59:13,609 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2019-04-18 16:59:14,938 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]

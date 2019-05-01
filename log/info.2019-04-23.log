@@ -1,0 +1,363 @@
+2019-04-23 10:24:11,282 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 12680 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-23 10:24:11,285 - No active profile set, falling back to default profiles: default
+2019-04-23 10:24:14,444 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 10:24:14,641 - Finished Spring Data repository scanning in 180ms. Found 9 repository interfaces.
+2019-04-23 10:24:15,238 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8eb19b67] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 10:24:16,092 - Tomcat initialized with port(s): 8080 (http)
+2019-04-23 10:24:16,108 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-23 10:24:16,131 - Starting service [Tomcat]
+2019-04-23 10:24:16,131 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-23 10:24:16,137 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-23 10:24:16,420 - Initializing Spring embedded WebApplicationContext
+2019-04-23 10:24:16,420 - Root WebApplicationContext: initialization completed in 4998 ms
+2019-04-23 10:24:16,757 - HikariPool-1 - Starting...
+2019-04-23 10:24:16,988 - HikariPool-1 - Start completed.
+2019-04-23 10:24:17,196 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-23 10:24:17,523 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-23 10:24:17,524 - HHH000206: hibernate.properties not found
+2019-04-23 10:24:17,886 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-23 10:24:18,278 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-23 10:24:19,772 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-23 10:24:20,543 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-23 10:24:20,875 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 10:24:20,962 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-23 10:24:21,256 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-23 10:24:21,277 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-23 10:24:21,279 - Started RebatemallApplication in 11.677 seconds (JVM running for 14.914)
+2019-04-23 10:26:46,163 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 14328 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-23 10:26:46,168 - No active profile set, falling back to default profiles: default
+2019-04-23 10:26:48,236 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 10:26:48,591 - Finished Spring Data repository scanning in 345ms. Found 9 repository interfaces.
+2019-04-23 10:26:49,085 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$855ee79d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 10:26:49,460 - Tomcat initialized with port(s): 8080 (http)
+2019-04-23 10:26:49,476 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-23 10:26:49,486 - Starting service [Tomcat]
+2019-04-23 10:26:49,487 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-23 10:26:49,493 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-23 10:26:49,723 - Initializing Spring embedded WebApplicationContext
+2019-04-23 10:26:49,723 - Root WebApplicationContext: initialization completed in 3391 ms
+2019-04-23 10:26:49,891 - HikariPool-1 - Starting...
+2019-04-23 10:26:50,160 - HikariPool-1 - Start completed.
+2019-04-23 10:26:50,218 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-23 10:26:50,278 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-23 10:26:50,280 - HHH000206: hibernate.properties not found
+2019-04-23 10:26:50,438 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-23 10:26:50,613 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-23 10:26:51,361 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-23 10:26:51,868 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-23 10:26:52,108 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 10:26:52,142 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-23 10:26:52,348 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-23 10:26:52,387 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-23 10:26:52,395 - Started RebatemallApplication in 7.056 seconds (JVM running for 8.566)
+2019-04-23 10:27:08,259 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-23 10:27:08,259 - Initializing Servlet 'dispatcherServlet'
+2019-04-23 10:27:08,273 - Completed initialization in 14 ms
+2019-04-23 10:28:02,449 - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-23 10:30:13,090 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 13800 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-23 10:30:13,094 - No active profile set, falling back to default profiles: default
+2019-04-23 10:30:14,545 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 10:30:14,684 - Finished Spring Data repository scanning in 130ms. Found 9 repository interfaces.
+2019-04-23 10:30:15,311 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac7c63e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 10:30:15,681 - Tomcat initialized with port(s): 8080 (http)
+2019-04-23 10:30:15,696 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-23 10:30:15,707 - Starting service [Tomcat]
+2019-04-23 10:30:15,707 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-23 10:30:15,714 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-23 10:30:15,931 - Initializing Spring embedded WebApplicationContext
+2019-04-23 10:30:15,932 - Root WebApplicationContext: initialization completed in 2771 ms
+2019-04-23 10:30:16,065 - HikariPool-1 - Starting...
+2019-04-23 10:30:16,267 - HikariPool-1 - Start completed.
+2019-04-23 10:30:16,314 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-23 10:30:16,373 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-23 10:30:16,374 - HHH000206: hibernate.properties not found
+2019-04-23 10:30:16,507 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-23 10:30:16,645 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-23 10:30:17,376 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-23 10:30:17,780 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-23 10:30:18,182 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 10:30:18,265 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-23 10:30:18,583 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-23 10:30:18,614 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-23 10:30:18,617 - Started RebatemallApplication in 6.342 seconds (JVM running for 7.826)
+2019-04-23 10:31:22,991 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-23 10:31:22,991 - Initializing Servlet 'dispatcherServlet'
+2019-04-23 10:31:23,002 - Completed initialization in 11 ms
+2019-04-23 10:31:23,173 - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-23 10:53:20,982 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 3420 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-23 10:53:20,986 - No active profile set, falling back to default profiles: default
+2019-04-23 10:53:22,150 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 10:53:22,264 - Finished Spring Data repository scanning in 107ms. Found 9 repository interfaces.
+2019-04-23 10:53:22,557 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$75fb2ab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 10:53:22,902 - Tomcat initialized with port(s): 8080 (http)
+2019-04-23 10:53:22,917 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-23 10:53:22,926 - Starting service [Tomcat]
+2019-04-23 10:53:22,926 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-23 10:53:22,932 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-23 10:53:23,136 - Initializing Spring embedded WebApplicationContext
+2019-04-23 10:53:23,136 - Root WebApplicationContext: initialization completed in 2051 ms
+2019-04-23 10:53:23,277 - HikariPool-1 - Starting...
+2019-04-23 10:53:23,472 - HikariPool-1 - Start completed.
+2019-04-23 10:53:23,518 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-23 10:53:23,568 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-23 10:53:23,569 - HHH000206: hibernate.properties not found
+2019-04-23 10:53:23,695 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-23 10:53:23,829 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-23 10:53:24,749 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-23 10:53:25,137 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-23 10:53:25,334 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 10:53:25,374 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-23 10:53:25,572 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-23 10:53:25,598 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-23 10:53:25,601 - Started RebatemallApplication in 5.238 seconds (JVM running for 6.412)
+2019-04-23 11:00:18,639 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-23 11:00:18,639 - Initializing Servlet 'dispatcherServlet'
+2019-04-23 11:00:18,651 - Completed initialization in 12 ms
+2019-04-23 11:00:18,879 - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-23 15:25:10,917 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 13924 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-23 15:25:10,922 - No active profile set, falling back to default profiles: default
+2019-04-23 15:25:12,315 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 15:25:12,468 - Finished Spring Data repository scanning in 141ms. Found 9 repository interfaces.
+2019-04-23 15:25:13,328 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$41c6083d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 15:25:13,722 - Tomcat initialized with port(s): 8080 (http)
+2019-04-23 15:25:13,751 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-23 15:25:13,770 - Starting service [Tomcat]
+2019-04-23 15:25:13,770 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-23 15:25:13,787 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-23 15:25:14,075 - Initializing Spring embedded WebApplicationContext
+2019-04-23 15:25:14,075 - Root WebApplicationContext: initialization completed in 3091 ms
+2019-04-23 15:25:14,229 - HikariPool-1 - Starting...
+2019-04-23 15:25:14,448 - HikariPool-1 - Start completed.
+2019-04-23 15:25:14,499 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-23 15:25:14,587 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-23 15:25:14,589 - HHH000206: hibernate.properties not found
+2019-04-23 15:25:14,900 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-23 15:25:15,033 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-23 15:25:15,760 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-23 15:25:16,160 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'addressInfoController': Unsatisfied dependency expressed through field 'deliveryAddressService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'deliveryAddressServiceImpl': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'deliveryAddressRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.findByUserIdOOrderByAddressIdDesc(java.lang.String)! No property o found for type String! Traversed path: DeliveryAddress.userId.
+2019-04-23 15:25:16,160 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-23 15:25:16,163 - HikariPool-1 - Shutdown initiated...
+2019-04-23 15:25:16,169 - HikariPool-1 - Shutdown completed.
+2019-04-23 15:25:16,171 - Stopping service [Tomcat]
+2019-04-23 15:25:16,183 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-23 15:25:50,218 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 9744 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-23 15:25:50,223 - No active profile set, falling back to default profiles: default
+2019-04-23 15:25:51,799 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 15:25:51,959 - Finished Spring Data repository scanning in 150ms. Found 9 repository interfaces.
+2019-04-23 15:25:52,415 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6b2bd3fe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 15:25:52,839 - Tomcat initialized with port(s): 8080 (http)
+2019-04-23 15:25:52,851 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-23 15:25:52,860 - Starting service [Tomcat]
+2019-04-23 15:25:52,860 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-23 15:25:52,866 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-23 15:25:53,189 - Initializing Spring embedded WebApplicationContext
+2019-04-23 15:25:53,191 - Root WebApplicationContext: initialization completed in 2900 ms
+2019-04-23 15:25:53,546 - HikariPool-1 - Starting...
+2019-04-23 15:25:53,750 - HikariPool-1 - Start completed.
+2019-04-23 15:25:53,891 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-23 15:25:53,969 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-23 15:25:53,971 - HHH000206: hibernate.properties not found
+2019-04-23 15:25:54,097 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-23 15:25:54,269 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-23 15:25:55,006 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-23 15:25:55,528 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-23 15:25:55,784 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 15:25:55,815 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-23 15:25:56,035 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-23 15:25:56,065 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-23 15:25:56,068 - Started RebatemallApplication in 6.622 seconds (JVM running for 8.73)
+2019-04-23 15:25:59,694 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-23 15:25:59,694 - Initializing Servlet 'dispatcherServlet'
+2019-04-23 15:25:59,707 - Completed initialization in 13 ms
+2019-04-23 15:25:59,868 - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-23 21:17:37,490 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 14056 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-23 21:17:37,494 - No active profile set, falling back to default profiles: default
+2019-04-23 21:17:38,979 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-23 21:17:38,979 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 21:17:39,102 - Finished Spring Data repository scanning in 116ms. Found 9 repository interfaces.
+2019-04-23 21:17:39,202 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-23 21:17:39,204 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 21:17:39,272 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-23 21:17:39,273 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-23 21:17:39,274 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-23 21:17:39,274 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-23 21:17:39,275 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-23 21:17:39,275 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-23 21:17:39,275 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-23 21:17:39,276 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-23 21:17:39,276 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-23 21:17:39,276 - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-04-23 21:17:39,733 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$15a91c97] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 21:17:40,296 - Tomcat initialized with port(s): 8080 (http)
+2019-04-23 21:17:40,315 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-23 21:17:40,325 - Starting service [Tomcat]
+2019-04-23 21:17:40,325 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-23 21:17:40,331 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-23 21:17:40,599 - Initializing Spring embedded WebApplicationContext
+2019-04-23 21:17:40,599 - Root WebApplicationContext: initialization completed in 3039 ms
+2019-04-23 21:17:40,812 - HikariPool-1 - Starting...
+2019-04-23 21:17:41,033 - HikariPool-1 - Start completed.
+2019-04-23 21:17:41,137 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-23 21:17:41,427 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-23 21:17:41,428 - HHH000206: hibernate.properties not found
+2019-04-23 21:17:41,782 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-23 21:17:42,075 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-23 21:17:43,265 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-23 21:17:43,987 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-23 21:17:44,246 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 21:17:44,281 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-23 21:17:45,407 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-23 21:17:45,431 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-23 21:17:45,433 - Started RebatemallApplication in 8.8 seconds (JVM running for 10.566)
+2019-04-23 21:17:49,529 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-23 21:17:49,529 - Initializing Servlet 'dispatcherServlet'
+2019-04-23 21:17:49,539 - Completed initialization in 10 ms
+2019-04-23 21:20:20,149 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 13592 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-23 21:20:20,153 - No active profile set, falling back to default profiles: default
+2019-04-23 21:20:21,629 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-23 21:20:21,630 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 21:20:21,803 - Finished Spring Data repository scanning in 163ms. Found 9 repository interfaces.
+2019-04-23 21:20:21,819 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-23 21:20:21,820 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 21:20:21,847 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-23 21:20:21,848 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-23 21:20:21,849 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-23 21:20:21,850 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-23 21:20:21,851 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-23 21:20:21,851 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-23 21:20:21,851 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-23 21:20:21,852 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-23 21:20:21,852 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-23 21:20:21,852 - Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+2019-04-23 21:20:22,332 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5042289a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 21:20:22,685 - Tomcat initialized with port(s): 8080 (http)
+2019-04-23 21:20:22,700 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-23 21:20:22,712 - Starting service [Tomcat]
+2019-04-23 21:20:22,713 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-23 21:20:22,719 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-23 21:20:22,911 - Initializing Spring embedded WebApplicationContext
+2019-04-23 21:20:22,912 - Root WebApplicationContext: initialization completed in 2685 ms
+2019-04-23 21:20:23,075 - HikariPool-1 - Starting...
+2019-04-23 21:20:23,264 - HikariPool-1 - Start completed.
+2019-04-23 21:20:23,309 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-23 21:20:23,360 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-23 21:20:23,361 - HHH000206: hibernate.properties not found
+2019-04-23 21:20:23,511 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-23 21:20:23,670 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-23 21:20:24,477 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-23 21:20:24,880 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-23 21:20:25,084 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 21:20:25,117 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-23 21:20:25,990 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-23 21:20:26,030 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-23 21:20:26,036 - Started RebatemallApplication in 6.726 seconds (JVM running for 8.252)
+2019-04-23 21:20:34,111 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-23 21:20:34,112 - Initializing Servlet 'dispatcherServlet'
+2019-04-23 21:20:34,130 - Completed initialization in 18 ms
+2019-04-23 21:20:45,702 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 13032 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-23 21:20:45,707 - No active profile set, falling back to default profiles: default
+2019-04-23 21:20:46,909 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-23 21:20:46,909 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 21:20:47,042 - Finished Spring Data repository scanning in 126ms. Found 9 repository interfaces.
+2019-04-23 21:20:47,066 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-23 21:20:47,067 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 21:20:47,084 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-23 21:20:47,085 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-23 21:20:47,086 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-23 21:20:47,087 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-23 21:20:47,087 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-23 21:20:47,087 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-23 21:20:47,088 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-23 21:20:47,089 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-23 21:20:47,089 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-23 21:20:47,090 - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-04-23 21:20:47,412 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ece75ca4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 21:20:47,708 - Tomcat initialized with port(s): 8080 (http)
+2019-04-23 21:20:47,721 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-23 21:20:47,729 - Starting service [Tomcat]
+2019-04-23 21:20:47,729 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-23 21:20:47,735 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-23 21:20:48,110 - Initializing Spring embedded WebApplicationContext
+2019-04-23 21:20:48,111 - Root WebApplicationContext: initialization completed in 2255 ms
+2019-04-23 21:20:48,397 - HikariPool-1 - Starting...
+2019-04-23 21:20:48,658 - HikariPool-1 - Start completed.
+2019-04-23 21:20:48,732 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-23 21:20:48,790 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-23 21:20:48,791 - HHH000206: hibernate.properties not found
+2019-04-23 21:20:48,928 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-23 21:20:49,066 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-23 21:20:49,696 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-23 21:20:50,215 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-23 21:20:50,432 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 21:20:50,465 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-23 21:20:50,936 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-23 21:20:50,960 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-23 21:20:50,962 - Started RebatemallApplication in 6.048 seconds (JVM running for 7.437)
+2019-04-23 21:20:53,496 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-23 21:20:53,496 - Initializing Servlet 'dispatcherServlet'
+2019-04-23 21:20:53,515 - Completed initialization in 19 ms
+2019-04-23 21:44:39,506 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 4040 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-23 21:44:39,524 - No active profile set, falling back to default profiles: default
+2019-04-23 21:44:40,955 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-23 21:44:40,956 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 21:44:41,094 - Finished Spring Data repository scanning in 131ms. Found 9 repository interfaces.
+2019-04-23 21:44:41,110 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-23 21:44:41,123 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 21:44:41,146 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-23 21:44:41,148 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-23 21:44:41,149 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-23 21:44:41,149 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-23 21:44:41,149 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-23 21:44:41,150 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-23 21:44:41,150 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-23 21:44:41,151 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-23 21:44:41,152 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-23 21:44:41,152 - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2019-04-23 21:44:41,487 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a0f1477b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 21:44:41,821 - Tomcat initialized with port(s): 8080 (http)
+2019-04-23 21:44:41,833 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-23 21:44:41,842 - Starting service [Tomcat]
+2019-04-23 21:44:41,842 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-23 21:44:41,848 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-23 21:44:42,060 - Initializing Spring embedded WebApplicationContext
+2019-04-23 21:44:42,060 - Root WebApplicationContext: initialization completed in 2399 ms
+2019-04-23 21:44:42,214 - HikariPool-1 - Starting...
+2019-04-23 21:44:42,420 - HikariPool-1 - Start completed.
+2019-04-23 21:44:42,479 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-23 21:44:42,538 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-23 21:44:42,540 - HHH000206: hibernate.properties not found
+2019-04-23 21:44:42,671 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-23 21:44:42,811 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-23 21:44:43,474 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-23 21:44:43,842 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-23 21:44:44,063 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 21:44:44,101 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-23 21:44:44,622 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-23 21:44:44,646 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-23 21:44:44,648 - Started RebatemallApplication in 5.778 seconds (JVM running for 7.004)
+2019-04-23 21:44:48,653 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-23 21:44:48,654 - Initializing Servlet 'dispatcherServlet'
+2019-04-23 21:44:48,672 - Completed initialization in 18 ms
+2019-04-23 21:44:49,098 - HHH000397: Using ASTQueryTranslatorFactory

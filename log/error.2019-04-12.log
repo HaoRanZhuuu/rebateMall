@@ -1,0 +1,4 @@
+2019-04-12 20:04:08,985 - Column 'wallet_id' cannot be null
+2019-04-12 20:04:08,987 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2019-04-12 20:04:36,329 - Column 'wallet_id' cannot be null
+2019-04-12 20:04:36,332 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]

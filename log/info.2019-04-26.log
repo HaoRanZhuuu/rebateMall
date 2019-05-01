@@ -1,0 +1,1248 @@
+2019-04-26 09:56:22,429 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11h28m48s387ms580µs600ns).
+2019-04-26 10:27:18,754 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-26 10:27:19,883 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-26 10:27:19,886 - HikariPool-1 - Shutdown initiated...
+2019-04-26 10:27:19,896 - HikariPool-1 - Shutdown completed.
+2019-04-26 10:27:31,789 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 10000 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-26 10:27:31,793 - No active profile set, falling back to default profiles: default
+2019-04-26 10:27:33,153 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 10:27:33,154 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 10:27:33,422 - Finished Spring Data repository scanning in 256ms. Found 9 repository interfaces.
+2019-04-26 10:27:33,470 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 10:27:33,472 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 10:27:33,502 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-26 10:27:33,504 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-26 10:27:33,505 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-26 10:27:33,506 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-26 10:27:33,507 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-26 10:27:33,508 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-26 10:27:33,510 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-26 10:27:33,511 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-26 10:27:33,512 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-26 10:27:33,513 - Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+2019-04-26 10:27:34,458 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f0708f3e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 10:27:34,792 - Tomcat initialized with port(s): 8080 (http)
+2019-04-26 10:27:34,806 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-26 10:27:34,814 - Starting service [Tomcat]
+2019-04-26 10:27:34,815 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-26 10:27:34,822 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;D:\Redis;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-26 10:27:35,072 - Initializing Spring embedded WebApplicationContext
+2019-04-26 10:27:35,072 - Root WebApplicationContext: initialization completed in 3171 ms
+2019-04-26 10:27:35,217 - HikariPool-1 - Starting...
+2019-04-26 10:27:35,429 - HikariPool-1 - Start completed.
+2019-04-26 10:27:35,477 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-26 10:27:35,533 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-26 10:27:35,535 - HHH000206: hibernate.properties not found
+2019-04-26 10:27:35,676 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-26 10:27:35,826 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-26 10:27:36,598 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-26 10:27:37,197 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-26 10:27:37,468 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-26 10:27:37,500 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-26 10:27:37,852 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-26 10:27:37,878 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-26 10:27:37,880 - Started RebatemallApplication in 6.926 seconds (JVM running for 8.925)
+2019-04-26 10:28:18,859 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-26 10:28:18,859 - Initializing Servlet 'dispatcherServlet'
+2019-04-26 10:28:18,865 - Completed initialization in 6 ms
+2019-04-26 10:29:00,385 - SQL Error: 1054, SQLState: 42S22
+2019-04-26 10:29:00,387 - HHH000327: Error performing load command : org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:69)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2167)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1930)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1892)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:937)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:340)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:310)
+	at org.hibernate.loader.Loader.loadEntity(Loader.java:2281)
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:64)
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:54)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4269)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:511)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:481)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:222)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:281)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:124)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:92)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1257)
+	at org.hibernate.internal.SessionImpl.access$1900(SessionImpl.java:207)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2874)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2848)
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1098)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:290)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:170)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:69)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:901)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:887)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:350)
+	at com.sun.proxy.$Proxy86.merge(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:308)
+	at com.sun.proxy.$Proxy86.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:492)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:359)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:200)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:644)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:608)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$invoke$3(RepositoryFactorySupport.java:595)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:595)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy95.save(Unknown Source)
+	at com.zhuhaoran.rebatemall.service.impl.OrderServiceImpl.create(OrderServiceImpl.java:81)
+	at com.zhuhaoran.rebatemall.service.impl.OrderServiceImpl$$FastClassBySpringCGLIB$$4514a0b0.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.zhuhaoran.rebatemall.service.impl.OrderServiceImpl$$EnhancerBySpringCGLIB$$7e11533a.create(<generated>)
+	at com.zhuhaoran.rebatemall.controller.BuyerOrderController.create(BuyerOrderController.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'orderdetai0_.seller_id' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:970)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:60)
+	... 131 common frames omitted
+2019-04-26 10:29:14,452 - SQL Error: 1054, SQLState: 42S22
+2019-04-26 10:29:14,454 - HHH000327: Error performing load command : org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:69)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2167)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1930)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1892)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:937)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:340)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:310)
+	at org.hibernate.loader.Loader.loadEntity(Loader.java:2281)
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:64)
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:54)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4269)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:511)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:481)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:222)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:281)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:124)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:92)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1257)
+	at org.hibernate.internal.SessionImpl.access$1900(SessionImpl.java:207)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2874)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2848)
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1098)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:290)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:170)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:69)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:901)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:887)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:350)
+	at com.sun.proxy.$Proxy86.merge(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:308)
+	at com.sun.proxy.$Proxy86.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:492)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:359)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:200)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:644)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:608)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$invoke$3(RepositoryFactorySupport.java:595)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:595)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy95.save(Unknown Source)
+	at com.zhuhaoran.rebatemall.service.impl.OrderServiceImpl.create(OrderServiceImpl.java:81)
+	at com.zhuhaoran.rebatemall.service.impl.OrderServiceImpl$$FastClassBySpringCGLIB$$4514a0b0.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.zhuhaoran.rebatemall.service.impl.OrderServiceImpl$$EnhancerBySpringCGLIB$$7e11533a.create(<generated>)
+	at com.zhuhaoran.rebatemall.controller.BuyerOrderController.create(BuyerOrderController.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'orderdetai0_.seller_id' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:970)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:60)
+	... 131 common frames omitted
+2019-04-26 10:31:10,873 - SQL Error: 1054, SQLState: 42S22
+2019-04-26 10:31:10,877 - HHH000327: Error performing load command : org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:69)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2167)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1930)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1892)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:937)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:340)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:310)
+	at org.hibernate.loader.Loader.loadEntity(Loader.java:2281)
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:64)
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:54)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4269)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:511)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:481)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:222)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:281)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:124)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:92)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1257)
+	at org.hibernate.internal.SessionImpl.access$1900(SessionImpl.java:207)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2874)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2848)
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1098)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:290)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:170)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:69)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:901)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:887)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:350)
+	at com.sun.proxy.$Proxy86.merge(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:308)
+	at com.sun.proxy.$Proxy86.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:492)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:359)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:200)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:644)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:608)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$invoke$3(RepositoryFactorySupport.java:595)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:595)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy95.save(Unknown Source)
+	at com.zhuhaoran.rebatemall.service.impl.OrderServiceImpl.create(OrderServiceImpl.java:81)
+	at com.zhuhaoran.rebatemall.service.impl.OrderServiceImpl$$FastClassBySpringCGLIB$$4514a0b0.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.zhuhaoran.rebatemall.service.impl.OrderServiceImpl$$EnhancerBySpringCGLIB$$7e11533a.create(<generated>)
+	at com.zhuhaoran.rebatemall.controller.BuyerOrderController.create(BuyerOrderController.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'orderdetai0_.seller_id' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:970)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:60)
+	... 131 common frames omitted
+2019-04-26 10:31:21,419 - SQL Error: 1054, SQLState: 42S22
+2019-04-26 10:31:21,422 - HHH000327: Error performing load command : org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:69)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2167)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1930)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1892)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:937)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:340)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:310)
+	at org.hibernate.loader.Loader.loadEntity(Loader.java:2281)
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:64)
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:54)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4269)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:511)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:481)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:222)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:281)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:124)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:92)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1257)
+	at org.hibernate.internal.SessionImpl.access$1900(SessionImpl.java:207)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2874)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2848)
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1098)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:290)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:170)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:69)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:901)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:887)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:350)
+	at com.sun.proxy.$Proxy86.merge(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:308)
+	at com.sun.proxy.$Proxy86.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:492)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:359)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:200)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:644)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:608)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$invoke$3(RepositoryFactorySupport.java:595)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:595)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy95.save(Unknown Source)
+	at com.zhuhaoran.rebatemall.service.impl.OrderServiceImpl.create(OrderServiceImpl.java:81)
+	at com.zhuhaoran.rebatemall.service.impl.OrderServiceImpl$$FastClassBySpringCGLIB$$4514a0b0.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.zhuhaoran.rebatemall.service.impl.OrderServiceImpl$$EnhancerBySpringCGLIB$$7e11533a.create(<generated>)
+	at com.zhuhaoran.rebatemall.controller.BuyerOrderController.create(BuyerOrderController.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'orderdetai0_.seller_id' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:970)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:60)
+	... 131 common frames omitted
+2019-04-26 10:33:30,389 - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-26 14:15:34,867 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 15588 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-26 14:15:34,871 - No active profile set, falling back to default profiles: default
+2019-04-26 14:15:36,301 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 14:15:36,301 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 14:15:36,419 - Finished Spring Data repository scanning in 110ms. Found 9 repository interfaces.
+2019-04-26 14:15:36,443 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 14:15:36,444 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 14:15:36,461 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-26 14:15:36,462 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-26 14:15:36,462 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-26 14:15:36,463 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-26 14:15:36,463 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-26 14:15:36,463 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-26 14:15:36,464 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-26 14:15:36,464 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-26 14:15:36,465 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-26 14:15:36,465 - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-04-26 14:15:36,822 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba1f176d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 14:15:37,153 - Tomcat initialized with port(s): 8080 (http)
+2019-04-26 14:15:37,166 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-26 14:15:37,175 - Starting service [Tomcat]
+2019-04-26 14:15:37,175 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-26 14:15:37,182 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;D:\Redis;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-26 14:15:37,432 - Initializing Spring embedded WebApplicationContext
+2019-04-26 14:15:37,432 - Root WebApplicationContext: initialization completed in 2504 ms
+2019-04-26 14:15:37,603 - HikariPool-1 - Starting...
+2019-04-26 14:15:37,818 - HikariPool-1 - Start completed.
+2019-04-26 14:15:37,870 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-26 14:15:37,935 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-26 14:15:37,938 - HHH000206: hibernate.properties not found
+2019-04-26 14:15:38,140 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-26 14:15:38,391 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-26 14:15:39,440 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-26 14:15:40,206 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-26 14:15:40,491 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-26 14:15:40,525 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-26 14:15:40,882 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-26 14:15:40,908 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-26 14:15:40,910 - Started RebatemallApplication in 6.897 seconds (JVM running for 8.913)
+2019-04-26 14:15:57,439 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-26 14:15:57,439 - Initializing Servlet 'dispatcherServlet'
+2019-04-26 14:15:57,451 - Completed initialization in 12 ms
+2019-04-26 14:17:43,397 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 10040 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-26 14:17:43,401 - No active profile set, falling back to default profiles: default
+2019-04-26 14:17:45,527 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 14:17:45,528 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 14:17:45,656 - Finished Spring Data repository scanning in 121ms. Found 9 repository interfaces.
+2019-04-26 14:17:45,681 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 14:17:45,683 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 14:17:45,713 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-26 14:17:45,714 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-26 14:17:45,715 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-26 14:17:45,715 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-26 14:17:45,715 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-26 14:17:45,716 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-26 14:17:45,716 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-26 14:17:45,717 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-26 14:17:45,717 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-26 14:17:45,718 - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-04-26 14:17:46,245 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ce6f28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 14:17:46,794 - Tomcat initialized with port(s): 8080 (http)
+2019-04-26 14:17:46,812 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-26 14:17:46,825 - Starting service [Tomcat]
+2019-04-26 14:17:46,826 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-26 14:17:46,839 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;D:\Redis;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-26 14:17:47,221 - Initializing Spring embedded WebApplicationContext
+2019-04-26 14:17:47,222 - Root WebApplicationContext: initialization completed in 3742 ms
+2019-04-26 14:17:47,370 - HikariPool-1 - Starting...
+2019-04-26 14:17:47,581 - HikariPool-1 - Start completed.
+2019-04-26 14:17:47,635 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-26 14:17:47,738 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-26 14:17:47,741 - HHH000206: hibernate.properties not found
+2019-04-26 14:17:47,871 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-26 14:17:48,005 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-26 14:17:48,726 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-26 14:17:49,322 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-26 14:17:49,524 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-26 14:17:49,557 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-26 14:17:49,861 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-26 14:17:49,883 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-26 14:17:49,885 - Started RebatemallApplication in 7.54 seconds (JVM running for 9.105)
+2019-04-26 14:17:52,383 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-26 14:17:52,383 - Initializing Servlet 'dispatcherServlet'
+2019-04-26 14:17:52,397 - Completed initialization in 14 ms
+2019-04-26 14:17:53,132 - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-26 14:21:07,492 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 15572 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-26 14:21:07,512 - No active profile set, falling back to default profiles: default
+2019-04-26 14:21:09,164 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 14:21:09,165 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 14:21:09,278 - Finished Spring Data repository scanning in 107ms. Found 9 repository interfaces.
+2019-04-26 14:21:09,296 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 14:21:09,297 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 14:21:09,324 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-26 14:21:09,325 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-26 14:21:09,325 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-26 14:21:09,326 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-26 14:21:09,326 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-26 14:21:09,326 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-26 14:21:09,327 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-26 14:21:09,327 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-26 14:21:09,327 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-26 14:21:09,328 - Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2019-04-26 14:21:09,737 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$40a4a1b4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 14:21:10,134 - Tomcat initialized with port(s): 8080 (http)
+2019-04-26 14:21:10,148 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-26 14:21:10,157 - Starting service [Tomcat]
+2019-04-26 14:21:10,158 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-26 14:21:10,165 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;D:\Redis;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-26 14:21:10,443 - Initializing Spring embedded WebApplicationContext
+2019-04-26 14:21:10,444 - Root WebApplicationContext: initialization completed in 2847 ms
+2019-04-26 14:21:10,625 - HikariPool-1 - Starting...
+2019-04-26 14:21:10,855 - HikariPool-1 - Start completed.
+2019-04-26 14:21:10,909 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-26 14:21:10,981 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-26 14:21:10,983 - HHH000206: hibernate.properties not found
+2019-04-26 14:21:11,121 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-26 14:21:11,278 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-26 14:21:12,157 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-26 14:21:12,804 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-26 14:21:13,087 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-26 14:21:13,121 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-26 14:21:13,452 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-26 14:21:13,477 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-26 14:21:13,479 - Started RebatemallApplication in 6.994 seconds (JVM running for 8.772)
+2019-04-26 14:21:59,992 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-26 14:21:59,993 - Initializing Servlet 'dispatcherServlet'
+2019-04-26 14:22:00,007 - Completed initialization in 14 ms
+2019-04-26 14:22:00,554 - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-26 14:24:49,327 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 11000 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-26 14:24:49,332 - No active profile set, falling back to default profiles: default
+2019-04-26 14:24:50,751 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 14:24:50,751 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 14:24:51,038 - Finished Spring Data repository scanning in 276ms. Found 9 repository interfaces.
+2019-04-26 14:24:51,095 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 14:24:51,098 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 14:24:51,203 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-26 14:24:51,207 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-26 14:24:51,208 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-26 14:24:51,209 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-26 14:24:51,211 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-26 14:24:51,222 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-26 14:24:51,224 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-26 14:24:51,225 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-26 14:24:51,227 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-26 14:24:51,229 - Finished Spring Data repository scanning in 89ms. Found 0 repository interfaces.
+2019-04-26 14:24:51,763 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b4dbe369] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 14:24:52,153 - Tomcat initialized with port(s): 8080 (http)
+2019-04-26 14:24:52,190 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-26 14:24:52,209 - Starting service [Tomcat]
+2019-04-26 14:24:52,210 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-26 14:24:52,219 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;D:\Redis;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-26 14:24:52,526 - Initializing Spring embedded WebApplicationContext
+2019-04-26 14:24:52,526 - Root WebApplicationContext: initialization completed in 3068 ms
+2019-04-26 14:24:52,674 - HikariPool-1 - Starting...
+2019-04-26 14:24:52,987 - HikariPool-1 - Start completed.
+2019-04-26 14:24:53,082 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-26 14:24:53,284 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-26 14:24:53,287 - HHH000206: hibernate.properties not found
+2019-04-26 14:24:53,459 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-26 14:24:53,659 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-26 14:24:54,443 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-26 14:24:55,075 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-26 14:24:55,282 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-26 14:24:55,315 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-26 14:24:55,633 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-26 14:24:55,657 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-26 14:24:55,659 - Started RebatemallApplication in 7.02 seconds (JVM running for 9.061)
+2019-04-26 14:24:58,482 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-26 14:24:58,482 - Initializing Servlet 'dispatcherServlet'
+2019-04-26 14:24:58,509 - Completed initialization in 26 ms
+2019-04-26 14:24:59,355 - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-26 15:19:10,065 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 11924 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-26 15:19:10,123 - No active profile set, falling back to default profiles: default
+2019-04-26 15:19:11,673 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 15:19:11,673 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 15:19:11,814 - Finished Spring Data repository scanning in 135ms. Found 9 repository interfaces.
+2019-04-26 15:19:11,828 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 15:19:11,829 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 15:19:11,858 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-26 15:19:11,859 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-26 15:19:11,859 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-26 15:19:11,860 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-26 15:19:11,860 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-26 15:19:11,860 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-26 15:19:11,861 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-26 15:19:11,861 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-26 15:19:11,861 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-26 15:19:11,861 - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-04-26 15:19:12,297 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6c636994] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 15:19:12,654 - Tomcat initialized with port(s): 8080 (http)
+2019-04-26 15:19:12,669 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-26 15:19:12,677 - Starting service [Tomcat]
+2019-04-26 15:19:12,678 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-26 15:19:12,685 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;D:\Redis;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-26 15:19:12,940 - Initializing Spring embedded WebApplicationContext
+2019-04-26 15:19:12,940 - Root WebApplicationContext: initialization completed in 2709 ms
+2019-04-26 15:19:13,103 - HikariPool-1 - Starting...
+2019-04-26 15:19:13,336 - HikariPool-1 - Start completed.
+2019-04-26 15:19:13,392 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-26 15:19:13,481 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-26 15:19:13,484 - HHH000206: hibernate.properties not found
+2019-04-26 15:19:13,655 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-26 15:19:13,907 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-26 15:19:14,700 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-26 15:19:15,583 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-26 15:19:15,878 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-26 15:19:15,922 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-26 15:19:16,262 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-26 15:19:16,285 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-26 15:19:16,287 - Started RebatemallApplication in 7.343 seconds (JVM running for 9.325)
+2019-04-26 15:19:44,744 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-26 15:19:44,744 - Initializing Servlet 'dispatcherServlet'
+2019-04-26 15:19:44,753 - Completed initialization in 7 ms
+2019-04-26 15:23:28,204 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 12344 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-26 15:23:28,211 - No active profile set, falling back to default profiles: default
+2019-04-26 15:23:29,537 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 15:23:29,538 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 15:23:29,685 - Finished Spring Data repository scanning in 138ms. Found 9 repository interfaces.
+2019-04-26 15:23:29,714 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 15:23:29,715 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 15:23:29,738 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-26 15:23:29,740 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-26 15:23:29,741 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-26 15:23:29,742 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-26 15:23:29,743 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-26 15:23:29,743 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-26 15:23:29,744 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-26 15:23:29,745 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-26 15:23:29,746 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-26 15:23:29,746 - Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+2019-04-26 15:23:30,109 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9cf81214] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 15:23:30,426 - Tomcat initialized with port(s): 8080 (http)
+2019-04-26 15:23:30,441 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-26 15:23:30,451 - Starting service [Tomcat]
+2019-04-26 15:23:30,451 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-26 15:23:30,458 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;D:\Redis;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-26 15:23:30,727 - Initializing Spring embedded WebApplicationContext
+2019-04-26 15:23:30,727 - Root WebApplicationContext: initialization completed in 2445 ms
+2019-04-26 15:23:30,909 - HikariPool-1 - Starting...
+2019-04-26 15:23:31,131 - HikariPool-1 - Start completed.
+2019-04-26 15:23:31,179 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-26 15:23:31,233 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-26 15:23:31,235 - HHH000206: hibernate.properties not found
+2019-04-26 15:23:31,371 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-26 15:23:31,515 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-26 15:23:32,490 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-26 15:23:33,080 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-26 15:23:33,310 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-26 15:23:33,348 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-26 15:23:33,662 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-26 15:23:33,687 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-26 15:23:33,689 - Started RebatemallApplication in 6.188 seconds (JVM running for 8.012)
+2019-04-26 15:23:38,572 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-26 15:23:38,572 - Initializing Servlet 'dispatcherServlet'
+2019-04-26 15:23:38,581 - Completed initialization in 9 ms
+2019-04-26 15:24:33,449 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 10592 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-26 15:24:33,454 - No active profile set, falling back to default profiles: default
+2019-04-26 15:24:34,861 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 15:24:34,862 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 15:24:35,002 - Finished Spring Data repository scanning in 132ms. Found 9 repository interfaces.
+2019-04-26 15:24:35,017 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 15:24:35,018 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 15:24:35,038 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-26 15:24:35,039 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-26 15:24:35,039 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-26 15:24:35,040 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-26 15:24:35,040 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-26 15:24:35,040 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-26 15:24:35,041 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-26 15:24:35,041 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-26 15:24:35,041 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-26 15:24:35,042 - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-04-26 15:24:35,395 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$35cd514] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 15:24:35,732 - Tomcat initialized with port(s): 8080 (http)
+2019-04-26 15:24:35,747 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-26 15:24:35,761 - Starting service [Tomcat]
+2019-04-26 15:24:35,761 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-26 15:24:35,778 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;D:\Redis;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-26 15:24:36,141 - Initializing Spring embedded WebApplicationContext
+2019-04-26 15:24:36,142 - Root WebApplicationContext: initialization completed in 2593 ms
+2019-04-26 15:24:36,353 - HikariPool-1 - Starting...
+2019-04-26 15:24:36,545 - HikariPool-1 - Start completed.
+2019-04-26 15:24:36,598 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-26 15:24:36,655 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-26 15:24:36,657 - HHH000206: hibernate.properties not found
+2019-04-26 15:24:36,785 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-26 15:24:36,934 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-26 15:24:37,611 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-26 15:24:38,308 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-26 15:24:38,511 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-26 15:24:38,546 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-26 15:24:38,876 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-26 15:24:38,901 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-26 15:24:38,903 - Started RebatemallApplication in 6.158 seconds (JVM running for 7.675)
+2019-04-26 15:24:43,561 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-26 15:24:43,561 - Initializing Servlet 'dispatcherServlet'
+2019-04-26 15:24:43,572 - Completed initialization in 11 ms
+2019-04-26 15:31:22,090 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 12952 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-26 15:31:22,095 - No active profile set, falling back to default profiles: default
+2019-04-26 15:31:24,888 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 15:31:24,889 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 15:31:25,004 - Finished Spring Data repository scanning in 108ms. Found 9 repository interfaces.
+2019-04-26 15:31:25,016 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 15:31:25,017 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 15:31:25,045 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-26 15:31:25,046 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-26 15:31:25,047 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-26 15:31:25,047 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-26 15:31:25,047 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-26 15:31:25,048 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-26 15:31:25,048 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-26 15:31:25,048 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-26 15:31:25,049 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-26 15:31:25,049 - Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+2019-04-26 15:31:25,508 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8a2aca81] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 15:31:26,020 - Tomcat initialized with port(s): 8080 (http)
+2019-04-26 15:31:26,039 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-26 15:31:26,055 - Starting service [Tomcat]
+2019-04-26 15:31:26,055 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-26 15:31:26,063 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;D:\Redis;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-26 15:31:26,332 - Initializing Spring embedded WebApplicationContext
+2019-04-26 15:31:26,332 - Root WebApplicationContext: initialization completed in 4165 ms
+2019-04-26 15:31:26,499 - HikariPool-1 - Starting...
+2019-04-26 15:31:26,822 - HikariPool-1 - Start completed.
+2019-04-26 15:31:26,890 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-26 15:31:27,003 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-26 15:31:27,005 - HHH000206: hibernate.properties not found
+2019-04-26 15:31:27,216 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-26 15:31:27,439 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-26 15:31:28,227 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-26 15:31:28,993 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-26 15:31:29,183 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-26 15:31:29,217 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-26 15:31:29,522 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-26 15:31:29,548 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-26 15:31:29,550 - Started RebatemallApplication in 8.465 seconds (JVM running for 10.366)
+2019-04-26 15:31:33,346 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-26 15:31:33,347 - Initializing Servlet 'dispatcherServlet'
+2019-04-26 15:31:33,354 - Completed initialization in 7 ms
+2019-04-26 15:32:00,328 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 12672 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-26 15:32:00,335 - No active profile set, falling back to default profiles: default
+2019-04-26 15:32:03,058 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 15:32:03,059 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 15:32:03,324 - Finished Spring Data repository scanning in 247ms. Found 9 repository interfaces.
+2019-04-26 15:32:03,349 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 15:32:03,352 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 15:32:03,376 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-26 15:32:03,377 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-26 15:32:03,381 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-26 15:32:03,382 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-26 15:32:03,383 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-26 15:32:03,384 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-26 15:32:03,385 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-26 15:32:03,385 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-26 15:32:03,386 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-26 15:32:03,386 - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2019-04-26 15:32:04,279 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a8eebe11] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 15:32:04,699 - Tomcat initialized with port(s): 8080 (http)
+2019-04-26 15:32:04,714 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-26 15:32:04,726 - Starting service [Tomcat]
+2019-04-26 15:32:04,726 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-26 15:32:04,734 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;D:\Redis;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-26 15:32:05,018 - Initializing Spring embedded WebApplicationContext
+2019-04-26 15:32:05,018 - Root WebApplicationContext: initialization completed in 4554 ms
+2019-04-26 15:32:05,303 - HikariPool-1 - Starting...
+2019-04-26 15:32:05,620 - HikariPool-1 - Start completed.
+2019-04-26 15:32:05,676 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-26 15:32:05,746 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-26 15:32:05,748 - HHH000206: hibernate.properties not found
+2019-04-26 15:32:05,898 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-26 15:32:06,077 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-26 15:32:07,193 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-26 15:32:08,017 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-26 15:32:08,380 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-26 15:32:08,434 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-26 15:32:08,809 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-26 15:32:08,834 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-26 15:32:08,835 - Started RebatemallApplication in 9.389 seconds (JVM running for 11.294)
+2019-04-26 15:32:52,224 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-26 15:32:52,224 - Initializing Servlet 'dispatcherServlet'
+2019-04-26 15:32:52,232 - Completed initialization in 8 ms
+2019-04-26 15:32:52,576 - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-26 20:39:16,399 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 6104 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-26 20:39:16,449 - No active profile set, falling back to default profiles: default
+2019-04-26 20:39:18,047 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 20:39:18,048 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 20:39:18,306 - Finished Spring Data repository scanning in 247ms. Found 9 repository interfaces.
+2019-04-26 20:39:18,346 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 20:39:18,348 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 20:39:18,405 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-26 20:39:18,407 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-26 20:39:18,408 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-26 20:39:18,409 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-26 20:39:18,410 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-26 20:39:18,411 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-26 20:39:18,412 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-26 20:39:18,412 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-26 20:39:18,413 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-26 20:39:18,414 - Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+2019-04-26 20:39:19,237 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3fc1c99c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 20:39:19,751 - Tomcat initialized with port(s): 8080 (http)
+2019-04-26 20:39:19,770 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-26 20:39:19,784 - Starting service [Tomcat]
+2019-04-26 20:39:19,784 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-26 20:39:19,794 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;D:\Redis;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-26 20:39:20,131 - Initializing Spring embedded WebApplicationContext
+2019-04-26 20:39:20,131 - Root WebApplicationContext: initialization completed in 3590 ms
+2019-04-26 20:39:20,281 - HikariPool-1 - Starting...
+2019-04-26 20:39:20,498 - HikariPool-1 - Start completed.
+2019-04-26 20:39:20,547 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-26 20:39:20,602 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-26 20:39:20,604 - HHH000206: hibernate.properties not found
+2019-04-26 20:39:20,722 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-26 20:39:20,918 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-26 20:39:21,949 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-26 20:39:22,697 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-26 20:39:22,934 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-26 20:39:22,972 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-26 20:39:23,315 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-26 20:39:23,346 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-26 20:39:23,348 - Started RebatemallApplication in 8.086 seconds (JVM running for 11.059)
+2019-04-26 20:40:12,722 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-26 20:40:12,722 - Initializing Servlet 'dispatcherServlet'
+2019-04-26 20:40:12,734 - Completed initialization in 12 ms
+2019-04-26 20:40:12,999 - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-26 20:41:31,643 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 8888 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-26 20:41:31,649 - No active profile set, falling back to default profiles: default
+2019-04-26 20:41:34,153 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 20:41:34,154 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 20:41:34,297 - Finished Spring Data repository scanning in 136ms. Found 9 repository interfaces.
+2019-04-26 20:41:34,324 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 20:41:34,325 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 20:41:34,344 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-26 20:41:34,346 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-26 20:41:34,347 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-26 20:41:34,348 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-26 20:41:34,348 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-26 20:41:34,349 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-26 20:41:34,349 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-26 20:41:34,350 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-26 20:41:34,350 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-26 20:41:34,350 - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-04-26 20:41:42,763 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 9952 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-26 20:41:42,767 - No active profile set, falling back to default profiles: default
+2019-04-26 20:41:43,711 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 20:41:43,711 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 20:41:43,861 - Finished Spring Data repository scanning in 141ms. Found 9 repository interfaces.
+2019-04-26 20:41:43,876 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 20:41:43,877 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 20:41:43,895 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-26 20:41:43,896 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-26 20:41:43,897 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-26 20:41:43,897 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-26 20:41:43,898 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-26 20:41:43,898 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-26 20:41:43,898 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-26 20:41:43,899 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-26 20:41:43,899 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-26 20:41:43,899 - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-04-26 20:41:44,415 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4b124370] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 20:41:44,947 - Tomcat initialized with port(s): 8080 (http)
+2019-04-26 20:41:44,967 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-26 20:41:44,981 - Starting service [Tomcat]
+2019-04-26 20:41:44,981 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-26 20:41:44,992 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;D:\Redis;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-26 20:41:45,302 - Initializing Spring embedded WebApplicationContext
+2019-04-26 20:41:45,302 - Root WebApplicationContext: initialization completed in 2438 ms
+2019-04-26 20:41:45,691 - HikariPool-1 - Starting...
+2019-04-26 20:41:46,036 - HikariPool-1 - Start completed.
+2019-04-26 20:41:46,127 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-26 20:41:46,216 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-26 20:41:46,218 - HHH000206: hibernate.properties not found
+2019-04-26 20:41:46,389 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-26 20:41:46,570 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-26 20:41:47,399 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-26 20:41:48,339 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-26 20:41:48,651 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-26 20:41:48,761 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-26 20:41:49,361 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-26 20:41:49,683 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-26 20:41:49,690 - Started RebatemallApplication in 7.805 seconds (JVM running for 11.009)
+2019-04-26 20:42:02,254 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-26 20:42:02,254 - Initializing Servlet 'dispatcherServlet'
+2019-04-26 20:42:02,275 - Completed initialization in 21 ms
+2019-04-26 20:42:18,833 - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-26 20:43:16,124 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55s91ms251µs700ns).
+2019-04-26 20:43:16,439 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-26 20:43:16,493 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-26 20:43:16,504 - HikariPool-1 - Shutdown initiated...
+2019-04-26 20:43:16,520 - HikariPool-1 - Shutdown completed.
+2019-04-26 20:43:29,577 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 12968 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-26 20:43:29,584 - No active profile set, falling back to default profiles: default
+2019-04-26 20:43:30,933 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 20:43:30,933 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 20:43:31,124 - Finished Spring Data repository scanning in 183ms. Found 9 repository interfaces.
+2019-04-26 20:43:31,144 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 20:43:31,146 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 20:43:31,170 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-26 20:43:31,172 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-26 20:43:31,174 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-26 20:43:31,175 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-26 20:43:31,176 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-26 20:43:31,176 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-26 20:43:31,177 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-26 20:43:31,177 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-26 20:43:31,177 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-26 20:43:31,178 - Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+2019-04-26 20:43:31,593 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5900a573] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 20:43:31,989 - Tomcat initialized with port(s): 8080 (http)
+2019-04-26 20:43:32,003 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-26 20:43:32,013 - Starting service [Tomcat]
+2019-04-26 20:43:32,014 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-26 20:43:32,022 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;D:\Redis;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-26 20:43:32,264 - Initializing Spring embedded WebApplicationContext
+2019-04-26 20:43:32,264 - Root WebApplicationContext: initialization completed in 2624 ms
+2019-04-26 20:43:32,429 - HikariPool-1 - Starting...
+2019-04-26 20:43:32,678 - HikariPool-1 - Start completed.
+2019-04-26 20:43:32,745 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-26 20:43:32,856 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-26 20:43:32,858 - HHH000206: hibernate.properties not found
+2019-04-26 20:43:33,025 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-26 20:43:33,176 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-26 20:43:33,838 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-26 20:43:34,801 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-26 20:43:35,000 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-26 20:43:35,040 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-26 20:43:35,483 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-26 20:43:35,518 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-26 20:43:35,521 - Started RebatemallApplication in 6.877 seconds (JVM running for 8.748)
+2019-04-26 20:43:41,575 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-26 20:43:41,575 - Initializing Servlet 'dispatcherServlet'
+2019-04-26 20:43:41,592 - Completed initialization in 16 ms
+2019-04-26 20:43:41,662 - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-26 20:52:41,815 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 15324 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-26 20:52:41,821 - No active profile set, falling back to default profiles: default
+2019-04-26 20:52:43,713 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 20:52:43,714 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 20:52:43,831 - Finished Spring Data repository scanning in 112ms. Found 9 repository interfaces.
+2019-04-26 20:52:43,853 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 20:52:43,855 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 20:52:43,871 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-26 20:52:43,872 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-26 20:52:43,872 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-26 20:52:43,873 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-26 20:52:43,873 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-26 20:52:43,873 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-26 20:52:43,874 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-26 20:52:43,874 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-26 20:52:43,874 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-26 20:52:43,875 - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-04-26 20:52:44,421 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6979ab71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 20:52:44,820 - Tomcat initialized with port(s): 8080 (http)
+2019-04-26 20:52:44,835 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-26 20:52:44,846 - Starting service [Tomcat]
+2019-04-26 20:52:44,846 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-26 20:52:44,853 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;D:\Redis;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-26 20:52:45,129 - Initializing Spring embedded WebApplicationContext
+2019-04-26 20:52:45,129 - Root WebApplicationContext: initialization completed in 3194 ms
+2019-04-26 20:52:45,286 - HikariPool-1 - Starting...
+2019-04-26 20:52:45,498 - HikariPool-1 - Start completed.
+2019-04-26 20:52:45,552 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-26 20:52:45,709 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-26 20:52:45,714 - HHH000206: hibernate.properties not found
+2019-04-26 20:52:45,877 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-26 20:52:46,029 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-26 20:52:46,860 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-26 20:52:47,614 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-26 20:52:47,797 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-26 20:52:47,852 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-26 20:52:48,223 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-26 20:52:48,246 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-26 20:52:48,248 - Started RebatemallApplication in 7.443 seconds (JVM running for 9.679)
+2019-04-26 20:53:33,644 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-26 20:53:33,644 - Initializing Servlet 'dispatcherServlet'
+2019-04-26 20:53:33,660 - Completed initialization in 15 ms
+2019-04-26 20:53:33,941 - HHH000397: Using ASTQueryTranslatorFactory

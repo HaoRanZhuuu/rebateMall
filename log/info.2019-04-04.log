@@ -1,0 +1,6 @@
+2019-04-04 10:43:44,710 - Starting LoggerTest on DESKTOP-6P4NVVT with PID 5816 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-04 10:43:44,711 - No active profile set, falling back to default profiles: default
+2019-04-04 10:43:47,848 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-04 10:43:48,276 - Started LoggerTest in 4.284 seconds (JVM running for 6.26)
+2019-04-04 10:43:48,563 - info...
+2019-04-04 10:43:48,574 - Shutting down ExecutorService 'applicationTaskExecutor'

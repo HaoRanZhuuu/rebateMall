@@ -1,0 +1,246 @@
+2019-04-08 12:12:11,123 - Starting ProductInfoServiceImplTest on DESKTOP-6P4NVVT with PID 688 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-08 12:12:11,126 - No active profile set, falling back to default profiles: default
+2019-04-08 12:12:12,695 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-08 12:12:12,819 - Finished Spring Data repository scanning in 113ms. Found 2 repository interfaces.
+2019-04-08 12:12:13,466 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e1289cc3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-08 12:12:13,959 - HikariPool-1 - Starting...
+2019-04-08 12:12:14,316 - HikariPool-1 - Start completed.
+2019-04-08 12:12:14,414 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-08 12:12:14,525 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-08 12:12:14,528 - HHH000206: hibernate.properties not found
+2019-04-08 12:12:14,760 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-08 12:12:15,397 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-08 12:12:17,599 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-08 12:12:22,647 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-08 12:12:23,227 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-08 12:12:24,212 - Started ProductInfoServiceImplTest in 14.571 seconds (JVM running for 18.717)
+2019-04-08 12:12:24,680 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-08 12:12:24,682 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-08 12:12:24,686 - HikariPool-1 - Shutdown initiated...
+2019-04-08 12:12:24,697 - HikariPool-1 - Shutdown completed.
+2019-04-08 12:13:15,711 - Starting ProductInfoServiceImplTest on DESKTOP-6P4NVVT with PID 9932 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-08 12:13:15,714 - No active profile set, falling back to default profiles: default
+2019-04-08 12:13:17,484 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-08 12:13:17,756 - Finished Spring Data repository scanning in 225ms. Found 2 repository interfaces.
+2019-04-08 12:13:18,501 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$77f0a62e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-08 12:13:18,840 - HikariPool-1 - Starting...
+2019-04-08 12:13:19,113 - HikariPool-1 - Start completed.
+2019-04-08 12:13:19,201 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-08 12:13:19,304 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-08 12:13:19,306 - HHH000206: hibernate.properties not found
+2019-04-08 12:13:19,514 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-08 12:13:20,095 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-08 12:13:21,215 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-08 12:13:22,653 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-08 12:13:22,743 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-08 12:13:23,540 - Started ProductInfoServiceImplTest in 8.858 seconds (JVM running for 10.948)
+2019-04-08 12:13:24,228 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-08 12:13:24,230 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-08 12:13:24,236 - HikariPool-1 - Shutdown initiated...
+2019-04-08 12:13:24,248 - HikariPool-1 - Shutdown completed.
+2019-04-08 14:48:36,036 - Starting ProductInfoServiceImplTest on DESKTOP-6P4NVVT with PID 13280 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-08 14:48:36,038 - No active profile set, falling back to default profiles: default
+2019-04-08 14:48:37,959 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-08 14:48:38,086 - Finished Spring Data repository scanning in 116ms. Found 2 repository interfaces.
+2019-04-08 14:48:38,715 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$77f0a62e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-08 14:48:39,057 - HikariPool-1 - Starting...
+2019-04-08 14:48:39,364 - HikariPool-1 - Start completed.
+2019-04-08 14:48:39,459 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-08 14:48:39,567 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-08 14:48:39,569 - HHH000206: hibernate.properties not found
+2019-04-08 14:48:39,794 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-08 14:48:40,430 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-08 14:48:41,628 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-08 14:48:43,845 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-08 14:48:43,970 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-08 14:48:44,536 - Started ProductInfoServiceImplTest in 9.919 seconds (JVM running for 12.163)
+2019-04-08 14:48:44,901 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-08 14:48:44,903 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-08 14:48:44,907 - HikariPool-1 - Shutdown initiated...
+2019-04-08 14:48:44,923 - HikariPool-1 - Shutdown completed.
+2019-04-08 14:49:19,619 - Starting ProductInfoServiceImplTest on DESKTOP-6P4NVVT with PID 12856 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-08 14:49:19,622 - No active profile set, falling back to default profiles: default
+2019-04-08 14:49:21,362 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-08 14:49:21,685 - Finished Spring Data repository scanning in 293ms. Found 2 repository interfaces.
+2019-04-08 14:49:22,360 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3c54a83e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-08 14:49:22,717 - HikariPool-1 - Starting...
+2019-04-08 14:49:23,026 - HikariPool-1 - Start completed.
+2019-04-08 14:49:23,163 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-08 14:49:23,317 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-08 14:49:23,320 - HHH000206: hibernate.properties not found
+2019-04-08 14:49:23,547 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-08 14:49:24,194 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-08 14:49:25,037 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-08 14:49:26,716 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-08 14:49:26,849 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-08 14:49:27,978 - Started ProductInfoServiceImplTest in 9.433 seconds (JVM running for 11.354)
+2019-04-08 14:49:28,441 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-08 14:49:28,443 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-08 14:49:28,447 - HikariPool-1 - Shutdown initiated...
+2019-04-08 14:49:28,458 - HikariPool-1 - Shutdown completed.
+2019-04-08 14:52:02,596 - Starting ProductInfoServiceImplTest on DESKTOP-6P4NVVT with PID 12904 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-08 14:52:02,597 - No active profile set, falling back to default profiles: default
+2019-04-08 14:52:04,751 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-08 14:52:04,871 - Finished Spring Data repository scanning in 107ms. Found 2 repository interfaces.
+2019-04-08 14:52:05,509 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e1289cc3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-08 14:52:05,902 - HikariPool-1 - Starting...
+2019-04-08 14:52:06,175 - HikariPool-1 - Start completed.
+2019-04-08 14:52:06,269 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-08 14:52:06,377 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-08 14:52:06,381 - HHH000206: hibernate.properties not found
+2019-04-08 14:52:06,600 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-08 14:52:07,240 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-08 14:52:08,238 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-08 14:52:10,235 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-08 14:52:10,474 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-08 14:52:11,125 - Started ProductInfoServiceImplTest in 9.717 seconds (JVM running for 11.506)
+2019-04-08 14:52:11,561 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-08 14:52:11,564 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-08 14:52:11,568 - HikariPool-1 - Shutdown initiated...
+2019-04-08 14:52:11,581 - HikariPool-1 - Shutdown completed.
+2019-04-08 14:52:30,095 - Starting ProductInfoServiceImplTest on DESKTOP-6P4NVVT with PID 13612 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-08 14:52:30,098 - No active profile set, falling back to default profiles: default
+2019-04-08 14:52:32,147 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-08 14:52:32,283 - Finished Spring Data repository scanning in 124ms. Found 2 repository interfaces.
+2019-04-08 14:52:33,062 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ed7b5594] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-08 14:52:33,641 - HikariPool-1 - Starting...
+2019-04-08 14:52:33,928 - HikariPool-1 - Start completed.
+2019-04-08 14:52:34,029 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-08 14:52:34,133 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-08 14:52:34,136 - HHH000206: hibernate.properties not found
+2019-04-08 14:52:34,384 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-08 14:52:34,991 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-08 14:52:36,166 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-08 14:52:37,639 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-08 14:52:37,723 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-08 14:52:38,274 - Started ProductInfoServiceImplTest in 9.338 seconds (JVM running for 11.77)
+2019-04-08 14:52:38,866 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-08 14:52:38,869 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-08 14:52:38,873 - HikariPool-1 - Shutdown initiated...
+2019-04-08 14:52:38,888 - HikariPool-1 - Shutdown completed.
+2019-04-08 14:53:41,508 - Starting ProductInfoServiceImplTest on DESKTOP-6P4NVVT with PID 8044 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-08 14:53:41,510 - No active profile set, falling back to default profiles: default
+2019-04-08 14:53:43,796 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-08 14:53:43,918 - Finished Spring Data repository scanning in 99ms. Found 2 repository interfaces.
+2019-04-08 14:53:44,594 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3c54a83e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-08 14:53:44,978 - HikariPool-1 - Starting...
+2019-04-08 14:53:45,260 - HikariPool-1 - Start completed.
+2019-04-08 14:53:45,369 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-08 14:53:45,498 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-08 14:53:45,500 - HHH000206: hibernate.properties not found
+2019-04-08 14:53:45,732 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-08 14:53:46,392 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-08 14:53:47,487 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-08 14:53:49,223 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-08 14:53:49,378 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-08 14:53:50,340 - Started ProductInfoServiceImplTest in 9.942 seconds (JVM running for 11.736)
+2019-04-08 14:53:50,746 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-08 14:53:50,760 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-08 14:53:50,770 - HikariPool-1 - Shutdown initiated...
+2019-04-08 14:53:50,810 - HikariPool-1 - Shutdown completed.
+2019-04-08 14:55:29,268 - Starting ProductInfoServiceImplTest on DESKTOP-6P4NVVT with PID 11620 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-08 14:55:29,269 - No active profile set, falling back to default profiles: default
+2019-04-08 14:55:30,683 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-08 14:55:30,864 - Finished Spring Data repository scanning in 163ms. Found 2 repository interfaces.
+2019-04-08 14:55:31,766 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$85822f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-08 14:55:32,252 - HikariPool-1 - Starting...
+2019-04-08 14:55:32,648 - HikariPool-1 - Start completed.
+2019-04-08 14:55:32,815 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-08 14:55:32,955 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-08 14:55:32,969 - HHH000206: hibernate.properties not found
+2019-04-08 14:55:33,588 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-08 14:55:33,988 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-08 14:55:35,085 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-08 14:55:37,055 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-08 14:55:37,187 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-08 14:55:37,981 - Started ProductInfoServiceImplTest in 9.626 seconds (JVM running for 14.036)
+2019-04-08 14:55:38,359 - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-08 14:55:52,325 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-08 14:55:52,328 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-08 14:55:52,333 - HikariPool-1 - Shutdown initiated...
+2019-04-08 14:55:52,344 - HikariPool-1 - Shutdown completed.
+2019-04-08 14:56:03,764 - Starting ProductInfoServiceImplTest on DESKTOP-6P4NVVT with PID 5940 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-08 14:56:03,765 - No active profile set, falling back to default profiles: default
+2019-04-08 14:56:05,277 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-08 14:56:05,441 - Finished Spring Data repository scanning in 148ms. Found 2 repository interfaces.
+2019-04-08 14:56:06,303 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9dcc02a7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-08 14:56:06,713 - HikariPool-1 - Starting...
+2019-04-08 14:56:07,311 - HikariPool-1 - Start completed.
+2019-04-08 14:56:07,420 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-08 14:56:07,585 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-08 14:56:07,587 - HHH000206: hibernate.properties not found
+2019-04-08 14:56:07,839 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-08 14:56:08,187 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-08 14:56:09,309 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-08 14:56:11,210 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-08 14:56:11,330 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-08 14:56:12,122 - Started ProductInfoServiceImplTest in 9.313 seconds (JVM running for 12.62)
+2019-04-08 14:56:12,393 - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-08 14:56:22,751 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-08 14:56:22,754 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-08 14:56:22,757 - HikariPool-1 - Shutdown initiated...
+2019-04-08 14:56:22,764 - HikariPool-1 - Shutdown completed.
+2019-04-08 14:57:05,308 - Starting ProductInfoServiceImplTest on DESKTOP-6P4NVVT with PID 13644 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-08 14:57:05,310 - No active profile set, falling back to default profiles: default
+2019-04-08 14:57:07,222 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-08 14:57:07,454 - Finished Spring Data repository scanning in 201ms. Found 2 repository interfaces.
+2019-04-08 14:57:08,175 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ed7b5594] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-08 14:57:08,566 - HikariPool-1 - Starting...
+2019-04-08 14:57:08,845 - HikariPool-1 - Start completed.
+2019-04-08 14:57:08,943 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-08 14:57:09,053 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-08 14:57:09,055 - HHH000206: hibernate.properties not found
+2019-04-08 14:57:09,289 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-08 14:57:09,882 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-08 14:57:10,932 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-08 14:57:12,428 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-08 14:57:12,519 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-08 14:57:13,417 - Started ProductInfoServiceImplTest in 9.159 seconds (JVM running for 11.081)
+2019-04-08 14:57:14,119 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-08 14:57:14,120 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-08 14:57:14,122 - HikariPool-1 - Shutdown initiated...
+2019-04-08 14:57:14,128 - HikariPool-1 - Shutdown completed.
+2019-04-08 15:08:13,902 - Starting ProductInfoServiceImplTest on DESKTOP-6P4NVVT with PID 10384 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-08 15:08:13,904 - No active profile set, falling back to default profiles: default
+2019-04-08 15:08:15,839 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-08 15:08:16,001 - Finished Spring Data repository scanning in 148ms. Found 2 repository interfaces.
+2019-04-08 15:08:16,906 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$76957a4f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-08 15:08:17,360 - HikariPool-1 - Starting...
+2019-04-08 15:08:17,682 - HikariPool-1 - Start completed.
+2019-04-08 15:08:17,804 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-08 15:08:17,930 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-08 15:08:17,933 - HHH000206: hibernate.properties not found
+2019-04-08 15:08:18,195 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-08 15:08:18,552 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-08 15:08:19,703 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-08 15:08:22,204 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-08 15:08:22,377 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-08 15:08:23,178 - Started ProductInfoServiceImplTest in 10.169 seconds (JVM running for 13.132)
+2019-04-08 15:08:23,376 - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-08 15:21:32,774 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m14s991ms222µs800ns).
+2019-04-08 15:21:32,806 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-08 15:21:32,809 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-08 15:21:32,816 - HikariPool-1 - Shutdown initiated...
+2019-04-08 15:21:32,831 - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,282 @@
+2019-04-21 19:27:06,943 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 5308 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-21 19:27:06,956 - No active profile set, falling back to default profiles: default
+2019-04-21 19:27:09,628 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-21 19:27:09,800 - Finished Spring Data repository scanning in 132ms. Found 9 repository interfaces.
+2019-04-21 19:27:10,441 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$64a7bcae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-21 19:27:11,401 - Tomcat initialized with port(s): 8080 (http)
+2019-04-21 19:27:11,424 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-21 19:27:11,455 - Starting service [Tomcat]
+2019-04-21 19:27:11,456 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-21 19:27:11,467 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-21 19:27:11,827 - Initializing Spring embedded WebApplicationContext
+2019-04-21 19:27:11,827 - Root WebApplicationContext: initialization completed in 4732 ms
+2019-04-21 19:27:12,654 - HikariPool-1 - Starting...
+2019-04-21 19:27:13,217 - HikariPool-1 - Start completed.
+2019-04-21 19:27:13,420 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-21 19:27:13,725 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-21 19:27:13,727 - HHH000206: hibernate.properties not found
+2019-04-21 19:27:14,170 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-21 19:27:14,501 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-21 19:27:15,721 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-21 19:27:16,364 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-21 19:27:16,812 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-21 19:27:16,886 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-21 19:27:17,148 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-21 19:27:17,170 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-21 19:27:17,172 - Started RebatemallApplication in 11.891 seconds (JVM running for 14.897)
+2019-04-21 19:31:55,108 - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:467)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-21 19:33:47,602 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-21 19:33:47,602 - Initializing Servlet 'dispatcherServlet'
+2019-04-21 19:33:47,615 - Completed initialization in 12 ms
+2019-04-21 19:36:18,723 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 10160 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-21 19:36:18,727 - No active profile set, falling back to default profiles: default
+2019-04-21 19:36:19,838 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-21 19:36:19,971 - Finished Spring Data repository scanning in 123ms. Found 9 repository interfaces.
+2019-04-21 19:36:20,355 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5b953b21] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-21 19:36:20,746 - Tomcat initialized with port(s): 8080 (http)
+2019-04-21 19:36:20,766 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-21 19:36:20,777 - Starting service [Tomcat]
+2019-04-21 19:36:20,778 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-21 19:36:20,786 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-21 19:36:21,059 - Initializing Spring embedded WebApplicationContext
+2019-04-21 19:36:21,060 - Root WebApplicationContext: initialization completed in 2233 ms
+2019-04-21 19:36:21,278 - HikariPool-1 - Starting...
+2019-04-21 19:36:21,647 - HikariPool-1 - Start completed.
+2019-04-21 19:36:21,702 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-21 19:36:21,783 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-21 19:36:21,786 - HHH000206: hibernate.properties not found
+2019-04-21 19:36:22,017 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-21 19:36:22,482 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-21 19:36:23,364 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-21 19:36:24,158 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-21 19:36:24,465 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-21 19:36:24,506 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-21 19:36:24,758 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-21 19:36:24,788 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-21 19:36:24,791 - Started RebatemallApplication in 6.798 seconds (JVM running for 10.386)
+2019-04-21 19:36:30,495 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-21 19:36:30,495 - Initializing Servlet 'dispatcherServlet'
+2019-04-21 19:36:30,506 - Completed initialization in 10 ms
+2019-04-21 19:37:10,637 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48s888ms122µs500ns).
+2019-04-21 19:38:29,256 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s379ms156µs500ns).
+2019-04-21 19:38:29,683 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-21 19:38:29,687 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-21 19:38:29,691 - HikariPool-1 - Shutdown initiated...
+2019-04-21 19:38:29,714 - HikariPool-1 - Shutdown completed.
+2019-04-21 19:38:37,884 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 9272 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-21 19:38:37,891 - No active profile set, falling back to default profiles: default
+2019-04-21 19:38:40,521 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-21 19:38:40,674 - Finished Spring Data repository scanning in 143ms. Found 9 repository interfaces.
+2019-04-21 19:38:41,236 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$32ed8d3b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-21 19:38:41,882 - Tomcat initialized with port(s): 8080 (http)
+2019-04-21 19:38:41,897 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-21 19:38:41,907 - Starting service [Tomcat]
+2019-04-21 19:38:41,908 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-21 19:38:41,916 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-21 19:38:42,173 - Initializing Spring embedded WebApplicationContext
+2019-04-21 19:38:42,173 - Root WebApplicationContext: initialization completed in 3715 ms
+2019-04-21 19:38:42,397 - HikariPool-1 - Starting...
+2019-04-21 19:38:42,692 - HikariPool-1 - Start completed.
+2019-04-21 19:38:42,750 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-21 19:38:42,832 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-21 19:38:42,833 - HHH000206: hibernate.properties not found
+2019-04-21 19:38:43,016 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-21 19:38:43,203 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-21 19:38:44,158 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-21 19:38:44,616 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-21 19:38:44,910 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-21 19:38:44,950 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-21 19:38:45,217 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-21 19:38:45,248 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-21 19:38:45,251 - Started RebatemallApplication in 8.562 seconds (JVM running for 10.714)
+2019-04-21 19:38:55,316 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-21 19:38:55,316 - Initializing Servlet 'dispatcherServlet'
+2019-04-21 19:38:55,328 - Completed initialization in 11 ms
+2019-04-21 19:39:21,136 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-21 19:39:21,142 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-21 19:39:21,146 - HikariPool-1 - Shutdown initiated...
+2019-04-21 19:39:21,177 - HikariPool-1 - Shutdown completed.
+2019-04-21 19:39:38,929 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 6796 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-21 19:39:38,960 - No active profile set, falling back to default profiles: default
+2019-04-21 19:39:40,088 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-21 19:39:40,225 - Finished Spring Data repository scanning in 128ms. Found 9 repository interfaces.
+2019-04-21 19:39:40,624 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2611bd2a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-21 19:39:41,273 - Tomcat initialized with port(s): 8080 (http)
+2019-04-21 19:39:41,290 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-21 19:39:41,300 - Starting service [Tomcat]
+2019-04-21 19:39:41,300 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-21 19:39:41,308 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-21 19:39:41,532 - Initializing Spring embedded WebApplicationContext
+2019-04-21 19:39:41,533 - Root WebApplicationContext: initialization completed in 2413 ms
+2019-04-21 19:39:41,708 - HikariPool-1 - Starting...
+2019-04-21 19:39:41,940 - HikariPool-1 - Start completed.
+2019-04-21 19:39:41,997 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-21 19:39:42,080 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-21 19:39:42,083 - HHH000206: hibernate.properties not found
+2019-04-21 19:39:42,254 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-21 19:39:42,423 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-21 19:39:43,271 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-21 19:39:43,838 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-21 19:39:44,157 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-21 19:39:44,197 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-21 19:39:44,474 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-21 19:39:44,505 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-21 19:39:44,507 - Started RebatemallApplication in 6.666 seconds (JVM running for 8.373)
+2019-04-21 19:39:54,278 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-21 19:39:54,278 - Initializing Servlet 'dispatcherServlet'
+2019-04-21 19:39:54,289 - Completed initialization in 10 ms
+2019-04-21 19:42:08,288 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m10s808ms545µs).
+2019-04-21 19:43:07,336 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59s48ms832µs500ns).
+2019-04-21 19:43:07,717 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-21 19:43:07,720 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-21 19:43:07,725 - HikariPool-1 - Shutdown initiated...
+2019-04-21 19:43:07,745 - HikariPool-1 - Shutdown completed.
+2019-04-21 19:43:34,034 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 8124 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-21 19:43:34,053 - No active profile set, falling back to default profiles: default
+2019-04-21 19:43:35,435 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-21 19:43:35,786 - Finished Spring Data repository scanning in 342ms. Found 9 repository interfaces.
+2019-04-21 19:43:36,450 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bb613ee6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-21 19:43:36,756 - Tomcat initialized with port(s): 8080 (http)
+2019-04-21 19:43:36,769 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-21 19:43:36,777 - Starting service [Tomcat]
+2019-04-21 19:43:36,777 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-21 19:43:36,783 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-21 19:43:36,990 - Initializing Spring embedded WebApplicationContext
+2019-04-21 19:43:36,990 - Root WebApplicationContext: initialization completed in 2866 ms
+2019-04-21 19:43:37,133 - HikariPool-1 - Starting...
+2019-04-21 19:43:37,331 - HikariPool-1 - Start completed.
+2019-04-21 19:43:37,377 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-21 19:43:37,428 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-21 19:43:37,429 - HHH000206: hibernate.properties not found
+2019-04-21 19:43:37,574 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-21 19:43:37,712 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-21 19:43:38,350 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-21 19:43:38,721 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-21 19:43:38,950 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-21 19:43:38,981 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-21 19:43:39,186 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-21 19:43:39,209 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-21 19:43:39,211 - Started RebatemallApplication in 6.065 seconds (JVM running for 8.024)
+2019-04-21 19:43:42,195 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-21 19:43:42,195 - Initializing Servlet 'dispatcherServlet'
+2019-04-21 19:43:42,203 - Completed initialization in 8 ms
+2019-04-21 19:46:03,796 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 3032 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-21 19:46:03,802 - No active profile set, falling back to default profiles: default
+2019-04-21 19:46:04,856 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-21 19:46:04,969 - Finished Spring Data repository scanning in 107ms. Found 9 repository interfaces.
+2019-04-21 19:46:05,281 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a053824f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-21 19:46:05,600 - Tomcat initialized with port(s): 8080 (http)
+2019-04-21 19:46:05,612 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-21 19:46:05,621 - Starting service [Tomcat]
+2019-04-21 19:46:05,621 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-21 19:46:05,628 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-21 19:46:05,950 - Initializing Spring embedded WebApplicationContext
+2019-04-21 19:46:05,951 - Root WebApplicationContext: initialization completed in 2047 ms
+2019-04-21 19:46:06,271 - HikariPool-1 - Starting...
+2019-04-21 19:46:06,545 - HikariPool-1 - Start completed.
+2019-04-21 19:46:06,630 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-21 19:46:06,716 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-21 19:46:06,717 - HHH000206: hibernate.properties not found
+2019-04-21 19:46:06,835 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-21 19:46:06,970 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-21 19:46:07,692 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-21 19:46:08,238 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-21 19:46:08,480 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-21 19:46:08,512 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-21 19:46:08,718 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-21 19:46:08,741 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-21 19:46:08,743 - Started RebatemallApplication in 5.686 seconds (JVM running for 7.118)
+2019-04-21 19:46:20,959 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-21 19:46:20,959 - Initializing Servlet 'dispatcherServlet'
+2019-04-21 19:46:20,967 - Completed initialization in 8 ms
+2019-04-21 19:47:09,494 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 3856 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-21 19:47:09,501 - No active profile set, falling back to default profiles: default
+2019-04-21 19:47:10,764 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-21 19:47:10,895 - Finished Spring Data repository scanning in 123ms. Found 9 repository interfaces.
+2019-04-21 19:47:11,275 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f97b22f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-21 19:47:11,656 - Tomcat initialized with port(s): 8080 (http)
+2019-04-21 19:47:11,672 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-21 19:47:11,681 - Starting service [Tomcat]
+2019-04-21 19:47:11,682 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-21 19:47:11,690 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-21 19:47:11,930 - Initializing Spring embedded WebApplicationContext
+2019-04-21 19:47:11,930 - Root WebApplicationContext: initialization completed in 2293 ms
+2019-04-21 19:47:12,106 - HikariPool-1 - Starting...
+2019-04-21 19:47:12,335 - HikariPool-1 - Start completed.
+2019-04-21 19:47:12,394 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-21 19:47:12,496 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-21 19:47:12,498 - HHH000206: hibernate.properties not found
+2019-04-21 19:47:12,667 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-21 19:47:12,834 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-21 19:47:13,851 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-21 19:47:14,323 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-21 19:47:14,605 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-21 19:47:14,645 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-21 19:47:14,905 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-21 19:47:14,935 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-21 19:47:14,938 - Started RebatemallApplication in 6.745 seconds (JVM running for 8.504)
+2019-04-21 19:47:20,891 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-21 19:47:20,891 - Initializing Servlet 'dispatcherServlet'
+2019-04-21 19:47:20,900 - Completed initialization in 9 ms
+2019-04-21 19:50:38,028 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m25s591ms307µs600ns).
+2019-04-21 19:50:38,391 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-21 19:50:38,396 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-21 19:50:38,407 - HikariPool-1 - Shutdown initiated...
+2019-04-21 19:50:38,425 - HikariPool-1 - Shutdown completed.
+2019-04-21 19:50:50,568 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 12868 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-21 19:50:50,573 - No active profile set, falling back to default profiles: default
+2019-04-21 19:50:51,964 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-21 19:50:52,108 - Finished Spring Data repository scanning in 136ms. Found 9 repository interfaces.
+2019-04-21 19:50:52,469 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b5410c00] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-21 19:50:52,784 - Tomcat initialized with port(s): 8080 (http)
+2019-04-21 19:50:52,796 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-21 19:50:52,804 - Starting service [Tomcat]
+2019-04-21 19:50:52,804 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-21 19:50:52,810 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+2019-04-21 19:50:53,013 - Initializing Spring embedded WebApplicationContext
+2019-04-21 19:50:53,013 - Root WebApplicationContext: initialization completed in 2318 ms
+2019-04-21 19:50:53,161 - HikariPool-1 - Starting...
+2019-04-21 19:50:53,365 - HikariPool-1 - Start completed.
+2019-04-21 19:50:53,417 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-21 19:50:53,471 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-21 19:50:53,473 - HHH000206: hibernate.properties not found
+2019-04-21 19:50:53,599 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-21 19:50:53,748 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-21 19:50:54,488 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-21 19:50:54,864 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-21 19:50:55,091 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-21 19:50:55,126 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-21 19:50:55,345 - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-21 19:50:55,370 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-04-21 19:50:55,372 - Started RebatemallApplication in 5.642 seconds (JVM running for 7.119)
+2019-04-21 19:50:59,156 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-21 19:50:59,156 - Initializing Servlet 'dispatcherServlet'
+2019-04-21 19:50:59,165 - Completed initialization in 9 ms

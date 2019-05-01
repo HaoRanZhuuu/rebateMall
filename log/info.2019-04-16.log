@@ -1,0 +1,21 @@
+2019-04-16 11:00:20,700 - Starting ProductInfoServiceImplTest on DESKTOP-6P4NVVT with PID 15220 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-16 11:00:20,701 - No active profile set, falling back to default profiles: default
+2019-04-16 11:00:23,312 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-16 11:00:23,467 - Finished Spring Data repository scanning in 141ms. Found 3 repository interfaces.
+2019-04-16 11:00:24,353 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$73acf7b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-16 11:00:24,995 - HikariPool-1 - Starting...
+2019-04-16 11:00:25,372 - HikariPool-1 - Start completed.
+2019-04-16 11:00:25,837 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-16 11:00:26,221 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-16 11:00:26,223 - HHH000206: hibernate.properties not found
+2019-04-16 11:00:26,716 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-16 11:00:27,844 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-16 11:00:29,826 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-16 11:00:30,802 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-16 11:00:32,249 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-16 11:00:32,401 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-16 11:00:33,089 - Started ProductInfoServiceImplTest in 13.678 seconds (JVM running for 18.492)
+2019-04-16 11:00:33,377 - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-16 12:04:23,558 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h3m58s87ms764µs300ns).

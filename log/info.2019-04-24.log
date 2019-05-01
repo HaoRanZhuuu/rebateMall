@@ -1,0 +1,877 @@
+2019-04-24 19:16:40,605 - Starting ProductKeyGenerateTest on DESKTOP-6P4NVVT with PID 2620 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-24 19:16:40,606 - No active profile set, falling back to default profiles: default
+2019-04-24 19:16:44,609 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 19:16:44,618 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 19:16:44,989 - Finished Spring Data repository scanning in 345ms. Found 9 repository interfaces.
+2019-04-24 19:16:45,105 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 19:16:45,109 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 19:16:45,177 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-24 19:16:45,181 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-24 19:16:45,183 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-24 19:16:45,184 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-24 19:16:45,185 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-24 19:16:45,186 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-24 19:16:45,188 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-24 19:16:45,189 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-24 19:16:45,197 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-24 19:16:45,199 - Finished Spring Data repository scanning in 38ms. Found 0 repository interfaces.
+2019-04-24 19:16:46,088 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6a226635] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 19:16:46,721 - HikariPool-1 - Starting...
+2019-04-24 19:16:47,022 - HikariPool-1 - Start completed.
+2019-04-24 19:16:47,307 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 19:16:47,582 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-24 19:16:47,583 - HHH000206: hibernate.properties not found
+2019-04-24 19:16:48,043 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 19:16:48,848 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 19:16:50,654 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 19:16:51,869 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-24 19:16:53,110 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 19:16:53,465 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 19:16:55,526 - Started ProductKeyGenerateTest in 17.153 seconds (JVM running for 21.404)
+2019-04-24 19:16:55,895 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-24 19:16:55,967 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 19:16:55,975 - HikariPool-1 - Shutdown initiated...
+2019-04-24 19:16:56,037 - HikariPool-1 - Shutdown completed.
+2019-04-24 19:17:40,954 - Starting ProductKeyGenerateTest on DESKTOP-6P4NVVT with PID 8276 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-24 19:17:40,957 - No active profile set, falling back to default profiles: default
+2019-04-24 19:17:42,677 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 19:17:42,679 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 19:17:43,073 - Finished Spring Data repository scanning in 374ms. Found 9 repository interfaces.
+2019-04-24 19:17:43,103 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 19:17:43,106 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 19:17:43,132 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-24 19:17:43,136 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-24 19:17:43,138 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-24 19:17:43,140 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-24 19:17:43,141 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-24 19:17:43,145 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-24 19:17:43,149 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-24 19:17:43,151 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-24 19:17:43,152 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-24 19:17:43,153 - Finished Spring Data repository scanning in 34ms. Found 0 repository interfaces.
+2019-04-24 19:17:44,037 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6a93906] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 19:17:44,925 - HikariPool-1 - Starting...
+2019-04-24 19:17:45,205 - HikariPool-1 - Start completed.
+2019-04-24 19:17:45,321 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 19:17:45,504 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-24 19:17:45,506 - HHH000206: hibernate.properties not found
+2019-04-24 19:17:45,848 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 19:17:46,254 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 19:17:47,700 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 19:17:48,677 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-24 19:17:49,934 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 19:17:50,108 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 19:17:52,927 - Started ProductKeyGenerateTest in 12.888 seconds (JVM running for 17.26)
+2019-04-24 20:58:11,497 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h40m26s192ms194µs300ns).
+2019-04-24 20:58:11,601 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-24 20:58:11,609 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 20:58:11,619 - HikariPool-1 - Shutdown initiated...
+2019-04-24 20:58:11,633 - HikariPool-1 - Shutdown completed.
+2019-04-24 20:58:18,958 - Starting ProductKeyGenerateTest on DESKTOP-6P4NVVT with PID 2956 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-24 20:58:18,960 - No active profile set, falling back to default profiles: default
+2019-04-24 20:58:21,115 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 20:58:21,119 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 20:58:21,533 - Finished Spring Data repository scanning in 396ms. Found 9 repository interfaces.
+2019-04-24 20:58:21,561 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 20:58:21,563 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 20:58:21,599 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-24 20:58:21,602 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-24 20:58:21,603 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-24 20:58:21,604 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-24 20:58:21,605 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-24 20:58:21,606 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-24 20:58:21,607 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-24 20:58:21,608 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-24 20:58:21,609 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-24 20:58:21,609 - Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2019-04-24 20:58:22,474 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f17a6251] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 20:58:22,983 - HikariPool-1 - Starting...
+2019-04-24 20:58:23,217 - HikariPool-1 - Start completed.
+2019-04-24 20:58:23,413 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 20:58:23,547 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-24 20:58:23,549 - HHH000206: hibernate.properties not found
+2019-04-24 20:58:23,874 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 20:58:24,191 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 20:58:25,874 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 20:58:27,030 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-24 20:58:28,700 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 20:58:28,876 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 20:58:30,635 - Started ProductKeyGenerateTest in 12.694 seconds (JVM running for 16.253)
+2019-04-24 21:00:07,897 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m44s558ms669µs100ns).
+2019-04-24 21:00:07,960 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:00:07,965 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:00:07,971 - HikariPool-1 - Shutdown initiated...
+2019-04-24 21:00:07,990 - HikariPool-1 - Shutdown completed.
+2019-04-24 21:00:15,124 - Starting ProductKeyGenerateTest on DESKTOP-6P4NVVT with PID 14828 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-24 21:00:15,126 - No active profile set, falling back to default profiles: default
+2019-04-24 21:00:17,068 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:00:17,074 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:00:17,595 - Finished Spring Data repository scanning in 496ms. Found 9 repository interfaces.
+2019-04-24 21:00:17,618 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:00:17,620 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:00:17,643 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-24 21:00:17,646 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-24 21:00:17,647 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-24 21:00:17,648 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-24 21:00:17,648 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-24 21:00:17,649 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-24 21:00:17,649 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-24 21:00:17,650 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-24 21:00:17,650 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-24 21:00:17,651 - Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+2019-04-24 21:00:18,479 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$79c7eb8c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 21:00:18,991 - HikariPool-1 - Starting...
+2019-04-24 21:00:19,236 - HikariPool-1 - Start completed.
+2019-04-24 21:00:19,385 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 21:00:19,520 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-24 21:00:19,524 - HHH000206: hibernate.properties not found
+2019-04-24 21:00:19,841 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 21:00:20,171 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 21:00:22,004 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:00:23,393 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-24 21:00:25,025 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:00:25,151 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 21:00:27,064 - Started ProductKeyGenerateTest in 12.961 seconds (JVM running for 15.91)
+2019-04-24 21:06:53,738 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m34s401ms521µs800ns).
+2019-04-24 21:06:53,782 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:06:53,785 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:06:53,793 - HikariPool-1 - Shutdown initiated...
+2019-04-24 21:06:53,806 - HikariPool-1 - Shutdown completed.
+2019-04-24 21:07:03,469 - Starting ProductKeyGenerateTest on DESKTOP-6P4NVVT with PID 15244 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-24 21:07:03,471 - No active profile set, falling back to default profiles: default
+2019-04-24 21:07:05,597 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:07:05,603 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:07:06,034 - Finished Spring Data repository scanning in 410ms. Found 9 repository interfaces.
+2019-04-24 21:07:06,056 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:07:06,062 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:07:06,093 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-24 21:07:06,096 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-24 21:07:06,097 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-24 21:07:06,098 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-24 21:07:06,099 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-24 21:07:06,101 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-24 21:07:06,102 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-24 21:07:06,103 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-24 21:07:06,104 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-24 21:07:06,105 - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2019-04-24 21:07:07,019 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9e4337d2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 21:07:07,608 - HikariPool-1 - Starting...
+2019-04-24 21:07:07,901 - HikariPool-1 - Start completed.
+2019-04-24 21:07:08,049 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 21:07:08,154 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-24 21:07:08,158 - HHH000206: hibernate.properties not found
+2019-04-24 21:07:08,447 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 21:07:08,765 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 21:07:10,905 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:07:11,823 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-24 21:07:13,395 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:07:13,516 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 21:07:15,499 - Started ProductKeyGenerateTest in 13.377 seconds (JVM running for 16.398)
+2019-04-24 21:07:43,945 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:07:43,948 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:07:43,952 - HikariPool-1 - Shutdown initiated...
+2019-04-24 21:07:43,957 - HikariPool-1 - Shutdown completed.
+2019-04-24 21:07:53,694 - Starting ProductKeyGenerateTest on DESKTOP-6P4NVVT with PID 9652 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-24 21:07:53,696 - No active profile set, falling back to default profiles: default
+2019-04-24 21:07:55,554 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:07:55,561 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:07:55,993 - Finished Spring Data repository scanning in 407ms. Found 9 repository interfaces.
+2019-04-24 21:07:56,020 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:07:56,023 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:07:56,049 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-24 21:07:56,052 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-24 21:07:56,054 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-24 21:07:56,055 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-24 21:07:56,055 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-24 21:07:56,056 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-24 21:07:56,058 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-24 21:07:56,060 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-24 21:07:56,061 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-24 21:07:56,067 - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2019-04-24 21:07:56,878 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$20d554e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 21:07:57,397 - HikariPool-1 - Starting...
+2019-04-24 21:07:57,631 - HikariPool-1 - Start completed.
+2019-04-24 21:07:57,759 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 21:07:57,848 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-24 21:07:57,850 - HHH000206: hibernate.properties not found
+2019-04-24 21:07:58,142 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 21:07:58,472 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 21:07:59,939 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:08:00,988 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-24 21:08:02,236 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:08:02,353 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 21:08:04,215 - Started ProductKeyGenerateTest in 11.578 seconds (JVM running for 14.55)
+2019-04-24 21:23:10,904 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m13s172ms755µs200ns).
+2019-04-24 21:23:10,967 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:23:10,971 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:23:10,975 - HikariPool-1 - Shutdown initiated...
+2019-04-24 21:23:10,986 - HikariPool-1 - Shutdown completed.
+2019-04-24 21:23:36,087 - Starting ProductKeyGenerateTest on DESKTOP-6P4NVVT with PID 5724 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-24 21:23:36,090 - No active profile set, falling back to default profiles: default
+2019-04-24 21:23:38,008 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:23:38,013 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:23:38,526 - Finished Spring Data repository scanning in 467ms. Found 9 repository interfaces.
+2019-04-24 21:23:38,556 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:23:38,559 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:23:38,589 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-24 21:23:38,592 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-24 21:23:38,593 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-24 21:23:38,594 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-24 21:23:38,595 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-24 21:23:38,597 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-24 21:23:38,598 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-24 21:23:38,599 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-24 21:23:38,600 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-24 21:23:38,601 - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2019-04-24 21:23:39,516 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a809cb32] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 21:23:40,068 - HikariPool-1 - Starting...
+2019-04-24 21:23:40,294 - HikariPool-1 - Start completed.
+2019-04-24 21:23:40,427 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 21:23:40,561 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-24 21:23:40,567 - HHH000206: hibernate.properties not found
+2019-04-24 21:23:40,866 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 21:23:41,175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 21:23:43,082 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:23:44,168 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-24 21:23:45,780 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:23:45,903 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 21:23:48,010 - Started ProductKeyGenerateTest in 13.035 seconds (JVM running for 15.984)
+2019-04-24 21:25:11,367 - Starting ProductKeyGenerateTest on DESKTOP-6P4NVVT with PID 14800 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-24 21:25:11,368 - No active profile set, falling back to default profiles: default
+2019-04-24 21:25:12,808 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:25:12,812 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:25:13,329 - Finished Spring Data repository scanning in 497ms. Found 9 repository interfaces.
+2019-04-24 21:25:13,363 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:25:13,371 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:25:13,441 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-24 21:25:13,444 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-24 21:25:13,446 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-24 21:25:13,447 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-24 21:25:13,448 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-24 21:25:13,449 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-24 21:25:13,450 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-24 21:25:13,452 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-24 21:25:13,453 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-24 21:25:13,453 - Finished Spring Data repository scanning in 65ms. Found 0 repository interfaces.
+2019-04-24 21:25:14,959 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8ba3565e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 21:25:15,444 - HikariPool-1 - Starting...
+2019-04-24 21:25:15,795 - HikariPool-1 - Start completed.
+2019-04-24 21:25:15,931 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 21:25:16,066 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-24 21:25:16,068 - HHH000206: hibernate.properties not found
+2019-04-24 21:25:16,340 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 21:25:16,685 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 21:25:17,924 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:25:18,856 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-24 21:25:20,743 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:25:20,901 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 21:25:22,600 - Started ProductKeyGenerateTest in 12.214 seconds (JVM running for 15.633)
+2019-04-24 21:25:45,745 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m5s349ms84µs700ns).
+2019-04-24 21:25:45,808 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:25:45,811 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:25:45,818 - HikariPool-1 - Shutdown initiated...
+2019-04-24 21:25:45,831 - HikariPool-1 - Shutdown completed.
+2019-04-24 21:25:57,855 - Starting ProductKeyGenerateTest on DESKTOP-6P4NVVT with PID 7320 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-24 21:25:57,858 - No active profile set, falling back to default profiles: default
+2019-04-24 21:26:00,058 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:26:00,063 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:26:00,473 - Finished Spring Data repository scanning in 389ms. Found 9 repository interfaces.
+2019-04-24 21:26:00,500 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:26:00,505 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:26:00,536 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-24 21:26:00,538 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-24 21:26:00,540 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-24 21:26:00,542 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-24 21:26:00,542 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-24 21:26:00,543 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-24 21:26:00,544 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-24 21:26:00,545 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-24 21:26:00,545 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-24 21:26:00,545 - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+2019-04-24 21:26:01,464 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b0a0a9df] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 21:26:02,016 - HikariPool-1 - Starting...
+2019-04-24 21:26:02,270 - HikariPool-1 - Start completed.
+2019-04-24 21:26:02,424 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 21:26:02,518 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-24 21:26:02,520 - HHH000206: hibernate.properties not found
+2019-04-24 21:26:02,946 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 21:26:03,277 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 21:26:04,978 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:26:06,241 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-24 21:26:07,913 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:26:08,030 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 21:26:09,696 - Started ProductKeyGenerateTest in 12.843 seconds (JVM running for 16.015)
+2019-04-24 21:27:10,197 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m7s825ms974µs700ns).
+2019-04-24 21:27:10,381 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:27:10,386 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:27:10,389 - HikariPool-1 - Shutdown initiated...
+2019-04-24 21:27:10,400 - HikariPool-1 - Shutdown completed.
+2019-04-24 21:27:20,727 - Starting ProductKeyGenerateTest on DESKTOP-6P4NVVT with PID 8156 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-24 21:27:20,730 - No active profile set, falling back to default profiles: default
+2019-04-24 21:27:22,563 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:27:22,566 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:27:23,023 - Finished Spring Data repository scanning in 440ms. Found 9 repository interfaces.
+2019-04-24 21:27:23,058 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:27:23,061 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:27:23,096 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-24 21:27:23,099 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-24 21:27:23,100 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-24 21:27:23,101 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-24 21:27:23,102 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-24 21:27:23,102 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-24 21:27:23,103 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-24 21:27:23,104 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-24 21:27:23,105 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-24 21:27:23,105 - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2019-04-24 21:27:23,998 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b9e45118] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 21:27:24,629 - HikariPool-1 - Starting...
+2019-04-24 21:27:24,856 - HikariPool-1 - Start completed.
+2019-04-24 21:27:25,047 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 21:27:25,156 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-24 21:27:25,159 - HHH000206: hibernate.properties not found
+2019-04-24 21:27:25,449 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 21:27:25,750 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 21:27:28,029 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:27:28,931 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-24 21:27:30,536 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:27:30,641 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 21:27:32,331 - Started ProductKeyGenerateTest in 12.831 seconds (JVM running for 15.757)
+2019-04-24 21:28:15,639 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s682ms286µs300ns).
+2019-04-24 21:28:15,696 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:28:15,701 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:28:15,709 - HikariPool-1 - Shutdown initiated...
+2019-04-24 21:28:15,720 - HikariPool-1 - Shutdown completed.
+2019-04-24 21:28:26,041 - Starting ProductKeyGenerateTest on DESKTOP-6P4NVVT with PID 2016 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-24 21:28:26,044 - No active profile set, falling back to default profiles: default
+2019-04-24 21:28:28,463 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:28:28,473 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:28:29,009 - Finished Spring Data repository scanning in 507ms. Found 9 repository interfaces.
+2019-04-24 21:28:29,050 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:28:29,056 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:28:29,107 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-24 21:28:29,116 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-24 21:28:29,117 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-24 21:28:29,119 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-24 21:28:29,121 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-24 21:28:29,122 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-24 21:28:29,123 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-24 21:28:29,124 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-24 21:28:29,125 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-24 21:28:29,125 - Finished Spring Data repository scanning in 46ms. Found 0 repository interfaces.
+2019-04-24 21:28:29,920 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$998b1c7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 21:28:30,443 - HikariPool-1 - Starting...
+2019-04-24 21:28:30,688 - HikariPool-1 - Start completed.
+2019-04-24 21:28:30,803 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 21:28:30,913 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-24 21:28:30,915 - HHH000206: hibernate.properties not found
+2019-04-24 21:28:31,223 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 21:28:31,542 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 21:28:33,209 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:28:34,571 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-24 21:28:36,180 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:28:36,295 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 21:28:38,018 - Started ProductKeyGenerateTest in 12.965 seconds (JVM running for 16.043)
+2019-04-24 21:39:42,296 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m11s504ms721µs200ns).
+2019-04-24 21:39:42,358 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:39:42,362 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:39:42,369 - HikariPool-1 - Shutdown initiated...
+2019-04-24 21:39:42,380 - HikariPool-1 - Shutdown completed.
+2019-04-24 21:39:52,551 - Starting ProductKeyGenerateTest on DESKTOP-6P4NVVT with PID 15344 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-24 21:39:52,552 - No active profile set, falling back to default profiles: default
+2019-04-24 21:39:54,182 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:39:54,185 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:39:54,585 - Finished Spring Data repository scanning in 385ms. Found 9 repository interfaces.
+2019-04-24 21:39:54,615 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:39:54,623 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:39:54,655 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-24 21:39:54,658 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-24 21:39:54,659 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-24 21:39:54,660 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-24 21:39:54,661 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-24 21:39:54,661 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-24 21:39:54,662 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-24 21:39:54,663 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-24 21:39:54,663 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-24 21:39:54,663 - Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+2019-04-24 21:39:55,537 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1895371a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 21:39:56,109 - HikariPool-1 - Starting...
+2019-04-24 21:39:56,358 - HikariPool-1 - Start completed.
+2019-04-24 21:39:56,500 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 21:39:56,601 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-24 21:39:56,603 - HHH000206: hibernate.properties not found
+2019-04-24 21:39:56,909 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 21:39:57,602 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 21:39:59,266 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:40:00,217 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-24 21:40:01,771 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:40:01,901 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 21:40:04,217 - Started ProductKeyGenerateTest in 12.655 seconds (JVM running for 16.059)
+2019-04-24 21:40:04,405 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:40:04,411 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:40:04,420 - HikariPool-1 - Shutdown initiated...
+2019-04-24 21:40:04,431 - HikariPool-1 - Shutdown completed.
+2019-04-24 21:40:50,628 - Starting ProductKeyGenerateTest on DESKTOP-6P4NVVT with PID 12680 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-24 21:40:50,630 - No active profile set, falling back to default profiles: default
+2019-04-24 21:40:52,854 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:40:52,858 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:40:53,287 - Finished Spring Data repository scanning in 404ms. Found 9 repository interfaces.
+2019-04-24 21:40:53,317 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:40:53,319 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:40:53,349 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-24 21:40:53,357 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-24 21:40:53,357 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-24 21:40:53,359 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-24 21:40:53,359 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-24 21:40:53,359 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-24 21:40:53,359 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-24 21:40:53,359 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-24 21:40:53,359 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-24 21:40:53,359 - Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2019-04-24 21:40:54,587 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$420cfe9a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 21:40:55,082 - HikariPool-1 - Starting...
+2019-04-24 21:40:55,306 - HikariPool-1 - Start completed.
+2019-04-24 21:40:55,462 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 21:40:55,592 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-24 21:40:55,594 - HHH000206: hibernate.properties not found
+2019-04-24 21:40:55,917 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 21:40:56,257 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 21:40:58,163 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:40:59,197 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-24 21:41:00,889 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:41:01,007 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 21:41:02,639 - Started ProductKeyGenerateTest in 12.955 seconds (JVM running for 16.035)
+2019-04-24 21:41:13,720 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:41:13,725 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:41:13,729 - HikariPool-1 - Shutdown initiated...
+2019-04-24 21:41:13,739 - HikariPool-1 - Shutdown completed.
+2019-04-24 21:41:24,476 - Starting ProductKeyGenerateTest on DESKTOP-6P4NVVT with PID 1280 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-24 21:41:24,477 - No active profile set, falling back to default profiles: default
+2019-04-24 21:41:26,074 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:41:26,079 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:41:26,515 - Finished Spring Data repository scanning in 416ms. Found 9 repository interfaces.
+2019-04-24 21:41:26,571 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:41:26,576 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:41:26,651 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-24 21:41:26,661 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-24 21:41:26,664 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-24 21:41:26,665 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-24 21:41:26,667 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-24 21:41:26,669 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-24 21:41:26,673 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-24 21:41:26,676 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-24 21:41:26,678 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-24 21:41:26,680 - Finished Spring Data repository scanning in 78ms. Found 0 repository interfaces.
+2019-04-24 21:41:27,971 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3da3f28b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 21:41:28,469 - HikariPool-1 - Starting...
+2019-04-24 21:41:28,716 - HikariPool-1 - Start completed.
+2019-04-24 21:41:28,838 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 21:41:28,954 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-24 21:41:28,954 - HHH000206: hibernate.properties not found
+2019-04-24 21:41:29,289 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 21:41:29,607 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 21:41:31,230 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:41:32,181 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-24 21:41:34,570 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:41:34,680 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 21:41:36,264 - Started ProductKeyGenerateTest in 12.858 seconds (JVM running for 16.225)
+2019-04-24 21:41:44,188 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:41:44,192 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:41:44,196 - HikariPool-1 - Shutdown initiated...
+2019-04-24 21:41:44,206 - HikariPool-1 - Shutdown completed.
+2019-04-24 21:41:54,012 - Starting ProductKeyGenerateTest on DESKTOP-6P4NVVT with PID 8476 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-24 21:41:54,014 - No active profile set, falling back to default profiles: default
+2019-04-24 21:41:55,566 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:41:55,570 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:41:56,038 - Finished Spring Data repository scanning in 450ms. Found 9 repository interfaces.
+2019-04-24 21:41:56,070 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:41:56,073 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:41:56,108 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-24 21:41:56,111 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-24 21:41:56,113 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-24 21:41:56,114 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-24 21:41:56,114 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-24 21:41:56,115 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-24 21:41:56,116 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-24 21:41:56,117 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-24 21:41:56,118 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-24 21:41:56,118 - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2019-04-24 21:41:57,098 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3f707517] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 21:41:57,953 - HikariPool-1 - Starting...
+2019-04-24 21:41:58,286 - HikariPool-1 - Start completed.
+2019-04-24 21:41:58,471 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 21:41:58,602 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-24 21:41:58,605 - HHH000206: hibernate.properties not found
+2019-04-24 21:41:58,884 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 21:41:59,199 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 21:42:00,897 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:42:01,844 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-24 21:42:03,827 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:42:04,063 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 21:42:05,734 - Started ProductKeyGenerateTest in 12.621 seconds (JVM running for 15.952)
+2019-04-24 21:42:05,942 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:42:05,948 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:42:05,963 - HikariPool-1 - Shutdown initiated...
+2019-04-24 21:42:05,980 - HikariPool-1 - Shutdown completed.
+2019-04-24 21:42:51,075 - Starting ProductKeyGenerateTest on DESKTOP-6P4NVVT with PID 12956 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-24 21:42:51,075 - No active profile set, falling back to default profiles: default
+2019-04-24 21:42:53,140 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:42:53,148 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:42:53,503 - Finished Spring Data repository scanning in 343ms. Found 9 repository interfaces.
+2019-04-24 21:42:53,531 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:42:53,533 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:42:53,563 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-24 21:42:53,563 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-24 21:42:53,563 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-24 21:42:53,563 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-24 21:42:53,563 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-24 21:42:53,571 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-24 21:42:53,571 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-24 21:42:53,571 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-24 21:42:53,573 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-24 21:42:53,573 - Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2019-04-24 21:42:54,342 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$45d2e293] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 21:42:54,870 - HikariPool-1 - Starting...
+2019-04-24 21:42:55,106 - HikariPool-1 - Start completed.
+2019-04-24 21:42:55,229 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 21:42:55,368 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-24 21:42:55,371 - HHH000206: hibernate.properties not found
+2019-04-24 21:42:55,673 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 21:42:56,018 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 21:42:57,745 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:42:59,260 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-24 21:43:01,235 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:43:01,387 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 21:43:02,905 - Started ProductKeyGenerateTest in 12.655 seconds (JVM running for 15.55)
+2019-04-24 21:43:03,095 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:43:03,103 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:43:03,125 - HikariPool-1 - Shutdown initiated...
+2019-04-24 21:43:03,141 - HikariPool-1 - Shutdown completed.
+2019-04-24 21:43:27,460 - Starting ProductKeyGenerateTest on DESKTOP-6P4NVVT with PID 7152 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-24 21:43:27,460 - No active profile set, falling back to default profiles: default
+2019-04-24 21:43:28,998 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:43:29,002 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:43:29,398 - Finished Spring Data repository scanning in 379ms. Found 9 repository interfaces.
+2019-04-24 21:43:29,424 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:43:29,427 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:43:29,453 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-24 21:43:29,456 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-24 21:43:29,457 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-24 21:43:29,457 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-24 21:43:29,458 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-24 21:43:29,458 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-24 21:43:29,459 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-24 21:43:29,459 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-24 21:43:29,460 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-24 21:43:29,460 - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+2019-04-24 21:43:30,239 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ae6a0f33] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 21:43:30,734 - HikariPool-1 - Starting...
+2019-04-24 21:43:30,941 - HikariPool-1 - Start completed.
+2019-04-24 21:43:31,059 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 21:43:31,176 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-24 21:43:31,179 - HHH000206: hibernate.properties not found
+2019-04-24 21:43:31,443 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 21:43:31,758 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 21:43:33,679 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:43:34,679 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-24 21:43:36,433 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:43:36,541 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 21:43:38,262 - Started ProductKeyGenerateTest in 12.366 seconds (JVM running for 15.686)
+2019-04-24 21:43:38,653 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:43:38,661 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:43:38,678 - HikariPool-1 - Shutdown initiated...
+2019-04-24 21:43:38,702 - HikariPool-1 - Shutdown completed.
+2019-04-24 21:44:17,331 - Starting ProductKeyGenerateTest on DESKTOP-6P4NVVT with PID 7040 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-24 21:44:17,333 - No active profile set, falling back to default profiles: default
+2019-04-24 21:44:18,952 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:44:18,956 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:44:19,401 - Finished Spring Data repository scanning in 430ms. Found 9 repository interfaces.
+2019-04-24 21:44:19,429 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:44:19,432 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:44:19,465 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-24 21:44:19,467 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-24 21:44:19,468 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-24 21:44:19,469 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-24 21:44:19,469 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-24 21:44:19,470 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-24 21:44:19,471 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-24 21:44:19,471 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-24 21:44:19,472 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-24 21:44:19,472 - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2019-04-24 21:44:20,584 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$815012e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 21:44:21,080 - HikariPool-1 - Starting...
+2019-04-24 21:44:21,294 - HikariPool-1 - Start completed.
+2019-04-24 21:44:21,410 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 21:44:21,524 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-24 21:44:21,526 - HHH000206: hibernate.properties not found
+2019-04-24 21:44:21,816 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 21:44:22,204 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 21:44:24,160 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:44:25,149 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-24 21:44:26,894 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:44:27,037 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 21:44:28,897 - Started ProductKeyGenerateTest in 12.89 seconds (JVM running for 15.83)
+2019-04-24 21:49:03,381 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m41s984ms920µs700ns).
+2019-04-24 21:49:03,438 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:49:03,443 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:49:03,447 - HikariPool-1 - Shutdown initiated...
+2019-04-24 21:49:03,458 - HikariPool-1 - Shutdown completed.
+2019-04-24 21:49:12,691 - Starting ProductKeyGenerateTest on DESKTOP-6P4NVVT with PID 7724 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-24 21:49:12,694 - No active profile set, falling back to default profiles: default
+2019-04-24 21:49:14,645 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:49:14,649 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:49:15,057 - Finished Spring Data repository scanning in 391ms. Found 9 repository interfaces.
+2019-04-24 21:49:15,090 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:49:15,096 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:49:15,134 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-24 21:49:15,137 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-24 21:49:15,138 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-24 21:49:15,140 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-24 21:49:15,141 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-24 21:49:15,142 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-24 21:49:15,143 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-24 21:49:15,144 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-24 21:49:15,145 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-24 21:49:15,146 - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2019-04-24 21:49:16,072 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$97eedf4b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 21:49:16,579 - HikariPool-1 - Starting...
+2019-04-24 21:49:16,797 - HikariPool-1 - Start completed.
+2019-04-24 21:49:16,926 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 21:49:17,025 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-24 21:49:17,027 - HHH000206: hibernate.properties not found
+2019-04-24 21:49:17,337 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 21:49:17,696 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 21:49:19,407 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:49:20,484 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-24 21:49:21,952 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:49:22,076 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 21:49:23,650 - Started ProductKeyGenerateTest in 12.107 seconds (JVM running for 14.943)
+2019-04-24 21:50:48,571 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m31s674ms378µs200ns).
+2019-04-24 21:50:48,629 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:50:48,632 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:50:48,640 - HikariPool-1 - Shutdown initiated...
+2019-04-24 21:50:48,649 - HikariPool-1 - Shutdown completed.
+2019-04-24 21:50:58,454 - Starting ProductKeyGenerateTest on DESKTOP-6P4NVVT with PID 9000 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-24 21:50:58,455 - No active profile set, falling back to default profiles: default
+2019-04-24 21:50:59,986 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:50:59,990 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:51:00,419 - Finished Spring Data repository scanning in 410ms. Found 9 repository interfaces.
+2019-04-24 21:51:00,446 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:51:00,449 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:51:00,480 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-24 21:51:00,483 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-24 21:51:00,486 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-24 21:51:00,487 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-24 21:51:00,488 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-24 21:51:00,489 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-24 21:51:00,490 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-24 21:51:00,491 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-24 21:51:00,492 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-24 21:51:00,492 - Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces.
+2019-04-24 21:51:01,350 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2a22e21e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 21:51:01,874 - HikariPool-1 - Starting...
+2019-04-24 21:51:02,116 - HikariPool-1 - Start completed.
+2019-04-24 21:51:02,227 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 21:51:02,342 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-24 21:51:02,344 - HHH000206: hibernate.properties not found
+2019-04-24 21:51:02,635 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 21:51:02,952 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 21:51:05,108 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:51:06,234 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-24 21:51:07,791 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:51:07,908 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 21:51:09,634 - Started ProductKeyGenerateTest in 12.379 seconds (JVM running for 15.624)
+2019-04-24 21:51:09,979 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:51:09,984 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:51:10,002 - HikariPool-1 - Shutdown initiated...
+2019-04-24 21:51:10,036 - HikariPool-1 - Shutdown completed.
+2019-04-24 21:52:01,387 - Starting ProductKeyGenerateTest on DESKTOP-6P4NVVT with PID 5556 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-24 21:52:01,389 - No active profile set, falling back to default profiles: default
+2019-04-24 21:52:03,066 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:52:03,071 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:52:03,619 - Finished Spring Data repository scanning in 529ms. Found 9 repository interfaces.
+2019-04-24 21:52:03,672 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:52:03,675 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:52:03,757 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-24 21:52:03,762 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-24 21:52:03,774 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-24 21:52:03,776 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-24 21:52:03,777 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-24 21:52:03,780 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-24 21:52:03,783 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-24 21:52:03,787 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-24 21:52:03,789 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-24 21:52:03,789 - Finished Spring Data repository scanning in 84ms. Found 0 repository interfaces.
+2019-04-24 21:52:05,022 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e1d1a6b4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 21:52:05,566 - HikariPool-1 - Starting...
+2019-04-24 21:52:05,801 - HikariPool-1 - Start completed.
+2019-04-24 21:52:05,934 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 21:52:06,067 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-24 21:52:06,069 - HHH000206: hibernate.properties not found
+2019-04-24 21:52:06,364 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 21:52:06,739 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 21:52:08,372 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:52:09,284 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-24 21:52:11,384 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:52:11,483 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 21:52:13,078 - Started ProductKeyGenerateTest in 12.713 seconds (JVM running for 16.022)
+2019-04-24 21:52:13,283 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:52:13,292 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:52:13,297 - HikariPool-1 - Shutdown initiated...
+2019-04-24 21:52:13,307 - HikariPool-1 - Shutdown completed.
+2019-04-24 21:52:39,308 - Starting ProductKeyGenerateTest on DESKTOP-6P4NVVT with PID 3860 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-24 21:52:39,308 - No active profile set, falling back to default profiles: default
+2019-04-24 21:52:40,846 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:52:40,852 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:52:41,272 - Finished Spring Data repository scanning in 392ms. Found 9 repository interfaces.
+2019-04-24 21:52:41,299 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:52:41,302 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:52:41,330 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-24 21:52:41,332 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-24 21:52:41,334 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-24 21:52:41,335 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-24 21:52:41,336 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-24 21:52:41,338 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-24 21:52:41,339 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-24 21:52:41,341 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-24 21:52:41,342 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-24 21:52:41,342 - Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces.
+2019-04-24 21:52:42,243 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$84780ccb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 21:52:42,813 - HikariPool-1 - Starting...
+2019-04-24 21:52:43,043 - HikariPool-1 - Start completed.
+2019-04-24 21:52:43,169 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 21:52:43,274 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-24 21:52:43,278 - HHH000206: hibernate.properties not found
+2019-04-24 21:52:43,559 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 21:52:44,143 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 21:52:45,897 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:52:46,845 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-24 21:52:48,449 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:52:48,565 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 21:52:50,665 - Started ProductKeyGenerateTest in 12.255 seconds (JVM running for 15.663)
+2019-04-24 21:52:50,836 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:52:50,842 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:52:50,846 - HikariPool-1 - Shutdown initiated...
+2019-04-24 21:52:50,867 - HikariPool-1 - Shutdown completed.
+2019-04-24 21:53:28,910 - Starting ProductKeyGenerateTest on DESKTOP-6P4NVVT with PID 216 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-24 21:53:28,911 - No active profile set, falling back to default profiles: default
+2019-04-24 21:53:30,465 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:53:30,471 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:53:30,903 - Finished Spring Data repository scanning in 415ms. Found 9 repository interfaces.
+2019-04-24 21:53:30,931 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 21:53:30,934 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 21:53:30,966 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-24 21:53:30,968 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-24 21:53:30,970 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-24 21:53:30,972 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-24 21:53:30,973 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-24 21:53:30,975 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-24 21:53:30,975 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-24 21:53:30,976 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-24 21:53:30,977 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-24 21:53:30,977 - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2019-04-24 21:53:31,921 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5c81e77e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 21:53:32,435 - HikariPool-1 - Starting...
+2019-04-24 21:53:32,736 - HikariPool-1 - Start completed.
+2019-04-24 21:53:32,852 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 21:53:32,983 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-24 21:53:32,986 - HHH000206: hibernate.properties not found
+2019-04-24 21:53:33,325 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 21:53:33,622 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 21:53:35,973 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 21:53:36,872 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-24 21:53:38,496 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 21:53:38,619 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 21:53:40,777 - Started ProductKeyGenerateTest in 13.208 seconds (JVM running for 16.211)
+2019-04-24 22:00:48,571 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m15s718ms42µs).
+2019-04-24 22:00:48,635 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-24 22:00:48,639 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 22:00:48,642 - HikariPool-1 - Shutdown initiated...
+2019-04-24 22:00:48,654 - HikariPool-1 - Shutdown completed.
+2019-04-24 22:00:59,598 - Starting ProductKeyGenerateTest on DESKTOP-6P4NVVT with PID 6700 (started by 15522 in D:\IdeaProjects\rebateMall)
+2019-04-24 22:00:59,599 - No active profile set, falling back to default profiles: default
+2019-04-24 22:01:01,665 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 22:01:01,670 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 22:01:02,196 - Finished Spring Data repository scanning in 501ms. Found 9 repository interfaces.
+2019-04-24 22:01:02,226 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 22:01:02,230 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 22:01:02,271 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-04-24 22:01:02,274 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-04-24 22:01:02,275 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-04-24 22:01:02,276 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-04-24 22:01:02,277 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-04-24 22:01:02,277 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-04-24 22:01:02,278 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-04-24 22:01:02,279 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-04-24 22:01:02,280 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-04-24 22:01:02,280 - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2019-04-24 22:01:03,282 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e966761d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 22:01:03,876 - HikariPool-1 - Starting...
+2019-04-24 22:01:04,130 - HikariPool-1 - Start completed.
+2019-04-24 22:01:04,282 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 22:01:04,418 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-24 22:01:04,421 - HHH000206: hibernate.properties not found
+2019-04-24 22:01:04,767 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 22:01:05,172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 22:01:07,056 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 22:01:08,063 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-04-24 22:01:09,639 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 22:01:09,750 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 22:01:11,537 - Started ProductKeyGenerateTest in 12.989 seconds (JVM running for 16.814)
+2019-04-24 22:02:44,373 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m40s146ms560µs600ns).
+2019-04-24 22:02:44,411 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-24 22:02:44,411 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 22:02:44,411 - HikariPool-1 - Shutdown initiated...
+2019-04-24 22:02:44,427 - HikariPool-1 - Shutdown completed.
+2019-04-24 22:02:44,690 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m28s793ms592µs800ns).
+2019-04-24 22:02:44,898 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-24 22:02:44,900 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 22:02:44,910 - HikariPool-1 - Shutdown initiated...
+2019-04-24 22:02:44,920 - HikariPool-1 - Shutdown completed.
