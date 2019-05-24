@@ -73,7 +73,7 @@ public class OrderServiceImpl implements OrderService {
             orderShoulepay = (productInfo.getProductPrice()
                     .subtract(productInfo.getProductDiscount()))
                     .multiply(new BigDecimal(orderDetail.getProductQuantity()))
-                    .add(orderAmount);
+                    .add(orderShoulepay);
             orderDiscount = (productInfo.getProductDiscount()
                     .multiply(new BigDecimal(orderDetail.getProductQuantity())))
                     .add(orderDiscount);

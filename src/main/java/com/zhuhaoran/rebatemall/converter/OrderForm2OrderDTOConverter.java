@@ -22,7 +22,6 @@ public class OrderForm2OrderDTOConverter {
 
     public static OrderDto converter(OrderForm orderForm){
         Gson gson = new Gson();
-
         OrderDto orderDto = new OrderDto();
         orderDto.setUserId(orderForm.getUserId());
         List<OrderDetail> orderDetailList = new ArrayList<>();
@@ -32,7 +31,6 @@ public class OrderForm2OrderDTOConverter {
         } catch (Exception e) {
             throw new MallException(ResultEnum.VARIABLE_ERROR);
         }
-
         orderDto.setOrderDetailList(orderDetailList);
         return orderDto;
     }

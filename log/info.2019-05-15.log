@@ -1,0 +1,90 @@
+2019-05-15 13:54:21,734 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 17316 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-05-15 13:54:21,750 - No active profile set, falling back to default profiles: default
+2019-05-15 13:54:35,965 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-15 13:54:35,965 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-15 13:54:37,198 - Finished Spring Data repository scanning in 934ms. Found 9 repository interfaces.
+2019-05-15 13:54:37,517 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-15 13:54:37,566 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-15 13:54:38,006 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-05-15 13:54:38,007 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-05-15 13:54:38,007 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-05-15 13:54:38,008 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-05-15 13:54:38,008 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-05-15 13:54:38,009 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-05-15 13:54:38,009 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-05-15 13:54:38,009 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-05-15 13:54:38,010 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-05-15 13:54:38,010 - Finished Spring Data repository scanning in 61ms. Found 0 repository interfaces.
+2019-05-15 13:54:39,996 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8de1bb6f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-15 13:54:43,704 - Tomcat initialized with port(s): 8080 (http)
+2019-05-15 13:54:43,940 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-15 13:54:44,033 - Starting service [Tomcat]
+2019-05-15 13:54:44,033 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-15 13:54:44,039 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;D:\Redis;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;D:\Android-SDK\platform-tools;D:\Android-SDK\tools;D:\gradle\gradle-4.10.2\bin;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\15522\AppData\Roaming\npm;C:\Users\15522\AppData\Local\Programs\Fiddler;.]
+2019-05-15 13:54:44,560 - Initializing Spring embedded WebApplicationContext
+2019-05-15 13:54:44,561 - Root WebApplicationContext: initialization completed in 22617 ms
+2019-05-15 13:54:46,662 - HikariPool-1 - Starting...
+2019-05-15 13:54:48,432 - HikariPool-1 - Start completed.
+2019-05-15 13:54:49,239 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-15 13:54:51,102 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-05-15 13:54:51,104 - HHH000206: hibernate.properties not found
+2019-05-15 13:54:52,254 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-15 13:54:53,109 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-15 13:54:59,580 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-15 13:55:02,622 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-05-15 13:55:03,004 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-15 13:55:03,068 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-15 13:55:03,694 - Starting ProtocolHandler ["http-nio-8080"]
+2019-05-15 13:55:03,717 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-05-15 13:55:03,719 - Started RebatemallApplication in 44.3 seconds (JVM running for 51.06)
+2019-05-15 14:04:04,393 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-15 14:04:04,393 - Initializing Servlet 'dispatcherServlet'
+2019-05-15 14:04:04,402 - Completed initialization in 9 ms
+2019-05-15 14:04:05,153 - HHH000397: Using ASTQueryTranslatorFactory
+2019-05-15 15:04:52,399 - Starting RebatemallApplication on DESKTOP-6P4NVVT with PID 10484 (D:\IdeaProjects\rebateMall\target\classes started by 15522 in D:\IdeaProjects\rebateMall)
+2019-05-15 15:04:52,399 - No active profile set, falling back to default profiles: default
+2019-05-15 15:04:53,523 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-15 15:04:53,523 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-15 15:04:53,648 - Finished Spring Data repository scanning in 109ms. Found 9 repository interfaces.
+2019-05-15 15:04:53,664 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-15 15:04:53,664 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-15 15:04:53,680 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.DeliveryAddressRepository.
+2019-05-15 15:04:53,680 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderDetailRepository.
+2019-05-15 15:04:53,680 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.OrderMasterRepository.
+2019-05-15 15:04:53,680 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductCategoryRepository.
+2019-05-15 15:04:53,680 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.ProductInfoRepository.
+2019-05-15 15:04:53,680 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.RebateDetailRepository.
+2019-05-15 15:04:53,680 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.UserInfoRepository.
+2019-05-15 15:04:53,680 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletDetailRepository.
+2019-05-15 15:04:53,680 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zhuhaoran.rebatemall.repository.WalletMasterRepository.
+2019-05-15 15:04:53,680 - Finished Spring Data repository scanning in 0ms. Found 0 repository interfaces.
+2019-05-15 15:04:54,040 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e730fb07] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-15 15:04:54,373 - Tomcat initialized with port(s): 8080 (http)
+2019-05-15 15:04:54,373 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-15 15:04:54,388 - Starting service [Tomcat]
+2019-05-15 15:04:54,388 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-15 15:04:54,404 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven\apache-maven-3.5.4\bin;D:\tomcat\apache-tomcat-9.0.11\bin;D:\Redis;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;D:\Android-SDK\platform-tools;D:\Android-SDK\tools;D:\gradle\gradle-4.10.2\bin;C:\Users\15522\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\15522\AppData\Roaming\npm;C:\Users\15522\AppData\Local\Programs\Fiddler;.]
+2019-05-15 15:04:54,793 - Initializing Spring embedded WebApplicationContext
+2019-05-15 15:04:54,793 - Root WebApplicationContext: initialization completed in 2237 ms
+2019-05-15 15:04:55,137 - HikariPool-1 - Starting...
+2019-05-15 15:04:55,231 - HikariPool-1 - Start completed.
+2019-05-15 15:04:55,295 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-15 15:04:55,343 - HHH000412: Hibernate Core {5.3.7.Final}
+2019-05-15 15:04:55,343 - HHH000206: hibernate.properties not found
+2019-05-15 15:04:55,530 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-15 15:04:55,718 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-15 15:04:56,456 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-15 15:04:57,114 - Autowired annotation is not supported on static fields: private static com.zhuhaoran.rebatemall.service.UserInfoService com.zhuhaoran.rebatemall.utils.JudgeSpecialUserUtil.userInfoService
+2019-05-15 15:04:57,286 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-15 15:04:57,317 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-15 15:04:57,678 - Starting ProtocolHandler ["http-nio-8080"]
+2019-05-15 15:04:57,694 - Tomcat started on port(s): 8080 (http) with context path '/rebatemall'
+2019-05-15 15:04:57,694 - Started RebatemallApplication in 6.066 seconds (JVM running for 7.583)
+2019-05-15 15:05:06,581 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-15 15:05:06,582 - Initializing Servlet 'dispatcherServlet'
+2019-05-15 15:05:06,591 - Completed initialization in 9 ms
+2019-05-15 15:05:06,671 - HHH000397: Using ASTQueryTranslatorFactory

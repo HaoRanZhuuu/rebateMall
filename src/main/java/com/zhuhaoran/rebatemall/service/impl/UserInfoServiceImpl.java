@@ -37,7 +37,6 @@ public class UserInfoServiceImpl implements UserInfoService {
 
     @Override
     public boolean matchingPasswordByUserName(String userName, String password) {
-
         return !StringUtils.isEmpty(repository.findByUserNameAndPassword(userName, password));
     }
 }

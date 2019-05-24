@@ -43,7 +43,7 @@ public class OrderMaster {
     private Integer orderStatus = OrderStatusEnum.NEW.getCode();
 
     /**快递状态*/
-    private Integer shippingStatus = ShippingStatusEnum.WAIT.getCode();
+    private Integer shippingStatus = ShippingStatusEnum.SHIPPING.getCode();
 
     /**快递公司名称*/
     private String shippingCom;

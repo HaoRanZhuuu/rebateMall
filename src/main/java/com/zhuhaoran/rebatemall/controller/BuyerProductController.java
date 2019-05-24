@@ -63,6 +63,7 @@ public class BuyerProductController {
      */
 
     /**获取商品列表*/
+    @CrossOrigin
     @GetMapping("/list")
     public ResultVo list(String userId,@RequestParam(defaultValue = "1") Integer page,@RequestParam(defaultValue = "20") Integer size){
 
@@ -87,6 +88,7 @@ public class BuyerProductController {
     }
 
     /**关键词模糊搜索商品*/
+    @CrossOrigin
     @GetMapping("/search")
     public ResultVo search(String userId,String keyWords,@RequestParam(defaultValue = "1") Integer page,@RequestParam(defaultValue = "20") Integer size) {
         ProductVo productVo = new ProductVo();
@@ -113,6 +115,7 @@ public class BuyerProductController {
     }
 
     /**商品详情界面*/
+    @CrossOrigin
     @GetMapping("/detail")
     public ResultVo detail(String userId,String productId) {
         if (StringUtils.isEmpty(userId)) {
@@ -139,6 +142,7 @@ public class BuyerProductController {
     }
 
     /**优惠商品详情*/
+    @CrossOrigin
     @PostMapping("/discountPage")
     public ResultVo discountPage (String productId , String sellerId , String userId) {
         if (StringUtils.isEmpty(productId) || StringUtils.isEmpty(sellerId)) {
@@ -165,6 +169,7 @@ public class BuyerProductController {
     }
 
     /**按类目展示商品列表*/
+    @CrossOrigin
     @GetMapping("/listByCate")
     public ResultVo listByCate(String userId,Integer categoryId,@RequestParam(defaultValue = "1") Integer page,@RequestParam(defaultValue = "20") Integer size){
         if (StringUtils.isEmpty(userId)) {
@@ -200,6 +205,7 @@ public class BuyerProductController {
     }
 
     /**搜索Key*/
+    @CrossOrigin
     @GetMapping("/searchKey")
     public ResultVo searchKey(String key,String userId) {
         if (StringUtils.isEmpty(key)) {
@@ -226,6 +232,7 @@ public class BuyerProductController {
     }
 
     /**创建商品分享口令*/
+    @CrossOrigin
     @GetMapping("/share")
     public ResultVo share(String productId, String userId) {
         if (productId.isEmpty() || userId.isEmpty()) {
@@ -250,6 +257,7 @@ public class BuyerProductController {
         return ResultVoUtil.success(result);
     }
 
+    @CrossOrigin
     @GetMapping("/cateList")
     public ResultVo cateList () {
         List<ProductCategory> categoryList = productCategoryService.findAll();
@@ -285,6 +293,7 @@ public class BuyerProductController {
         return ResultVoUtil.success(categoryVo);
     }
 
+    @CrossOrigin
     @GetMapping("/cateAdd")
     public ResultVo cateAdd(CategoryForm categoryForm, BindingResult bindingResult) {
 
@@ -298,12 +307,14 @@ public class BuyerProductController {
         return ResultVoUtil.success();
     }
 
+    @CrossOrigin
     @DeleteMapping("/cateDelete")
     public ResultVo cateDelete(Integer categoryId) {
         productCategoryService.deleteById(categoryId);
         return ResultVoUtil.success();
     }
 
+    @CrossOrigin
     @PutMapping("/cateAlter")
     public ResultVo cateAlter(Integer categoryId, CategoryForm categoryForm, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
@@ -315,6 +326,7 @@ public class BuyerProductController {
         return ResultVoUtil.success();
     }
 
+    @CrossOrigin
     @PostMapping("/add")
     public ResultVo add(@Validated ProductForm productForm, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
@@ -327,6 +339,7 @@ public class BuyerProductController {
         return ResultVoUtil.success();
     }
 
+    @CrossOrigin
     @PutMapping("/change")
     public ResultVo change(String productId) {
         if (StringUtils.isEmpty(productId)) {
@@ -343,6 +356,7 @@ public class BuyerProductController {
         return ResultVoUtil.success();
     }
 
+    @CrossOrigin
     @PutMapping("/alter")
     public ResultVo alter(String productId, @Validated ProductForm productForm, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
@@ -357,6 +371,7 @@ public class BuyerProductController {
         return ResultVoUtil.success();
     }
 
+    @CrossOrigin
     @DeleteMapping("/delete")
     public ResultVo delete(String productId) {
         productInfoService.deleteById(productId);

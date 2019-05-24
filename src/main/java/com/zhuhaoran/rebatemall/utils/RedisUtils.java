@@ -30,7 +30,6 @@ public class RedisUtils {
 
 
     public  boolean setRedisByHashMap (String key,Map<String,Object> map) {
-
         try {
             redisTemplate.opsForHash().putAll(key,map);
             redisTemplate.expire(key, DAY_TIME, TimeUnit.DAYS);

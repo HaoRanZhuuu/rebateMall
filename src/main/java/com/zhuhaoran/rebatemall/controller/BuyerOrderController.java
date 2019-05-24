@@ -24,10 +24,7 @@ import org.springframework.web.bind.annotation.*;
 import sun.nio.cs.ext.MacArabic;
 
 import javax.validation.Valid;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author ZhuHaoran
@@ -59,6 +56,7 @@ public class BuyerOrderController {
     UserInfoService userInfoService;
 
     /**创建订单*/
+    @CrossOrigin
     @PostMapping("/create")
     public ResultVo<Map<String,String>> create(@Valid OrderForm orderForm , BindingResult bindingResult) {
 
@@ -78,6 +76,7 @@ public class BuyerOrderController {
     }
 
     /**完成订单*/
+    @CrossOrigin
     @PutMapping("/finish")
     public ResultVo finish(String userId, String orderId) {
         OrderMaster orderMaster = orderService.findByOrderId(orderId);
@@ -139,6 +138,7 @@ public class BuyerOrderController {
         return ResultVoUtil.success();
     }
 
+    @CrossOrigin
     @GetMapping("/list")
     public ResultVo list(String userId) {
 
@@ -173,10 +173,12 @@ public class BuyerOrderController {
             orderVo.setOrderDetailVoList(orderDetailVoList);
             orderVoList.add(orderVo);
         }
+        Collections.reverse(orderVoList);
         return ResultVoUtil.success(orderVoList);
 
     }
 
+    @CrossOrigin
     @PostMapping("/cancel")
     public ResultVo cancel(String userId, String orderId) {
         if (StringUtils.isEmpty(userId) || StringUtils.isEmpty(orderId)) {
@@ -209,6 +211,7 @@ public class BuyerOrderController {
 
     // TODO: 2019/4/29 订单详情
 
+    @CrossOrigin
     @PutMapping("/delivery")
     public ResultVo delivery (String shippingCom,String shippingSn,String orderId) {
         OrderMaster orderMaster = orderService.findByOrderId(orderId);

@@ -21,10 +21,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author ZhuHaoran
@@ -50,6 +47,7 @@ public class BuyerWalletController {
     UserInfoService userInfoService;
 
     /**获取当前余额信息*/
+    @CrossOrigin
     @GetMapping("/get")
     public ResultVo get(String userId) {
         if (userId.isEmpty()) {
@@ -63,6 +61,7 @@ public class BuyerWalletController {
     }
 
     /**创建钱包账户*/
+    @CrossOrigin
     @PostMapping("/create")
     public ResultVo create(String userId, String password) {
         if (userId.isEmpty() || password.isEmpty()) {
@@ -83,6 +82,7 @@ public class BuyerWalletController {
     }
 
     /**支付订单*/
+    @CrossOrigin
     @PutMapping("/pay")
     public ResultVo pay(String userId, String password, String orderId) {
         WalletMaster walletMaster = walletMasterService.findByUserId(userId);
@@ -132,6 +132,7 @@ public class BuyerWalletController {
     }
 
     /**金额充值*/
+    @CrossOrigin
     @PostMapping("/add")
     public ResultVo add(String userId, String password, BigDecimal money) {
         if (userId.isEmpty() || password.isEmpty()) {
@@ -150,6 +151,7 @@ public class BuyerWalletController {
     }
 
     /**获取钱包明细信息*/
+    @CrossOrigin
     @GetMapping("/list")
     public ResultVo list(String userId) {
         if (userId.isEmpty()) {
@@ -172,10 +174,12 @@ public class BuyerWalletController {
             walletMasterVo.setMoney(money);
             walletMasterVoList.add(walletMasterVo);
         }
+        Collections.reverse(walletMasterVoList);
         return ResultVoUtil.success(walletMasterVoList);
     }
 
     /**获取钱包明细详情*/
+    @CrossOrigin
     @GetMapping("/detail")
     public ResultVo detail(String logId) {
         return ResultVoUtil.success(walletDetailServer.getById(logId));

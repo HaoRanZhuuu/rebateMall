@@ -41,6 +41,7 @@ public class BuyerUserController {
     private RedisUtils redisUtils;
 
     /**用户登录*/
+    @CrossOrigin
     @PostMapping("/login")
     public ResultVo<String> login (@Valid LoginForm LoginForm , BindingResult bindingResult){
         if (bindingResult.hasErrors()) {
@@ -65,6 +66,7 @@ public class BuyerUserController {
     }
 
     /**用户注册*/
+    @CrossOrigin
     @PostMapping("/register")
     public ResultVo<String> register(@Valid RegisterForm registerForm, BindingResult bindingResult) {
         //前端校验重复密码后将用户名密码返回后端
@@ -88,6 +90,7 @@ public class BuyerUserController {
     }
 
     /**用户认证*/
+    @CrossOrigin
     @PutMapping("/permission")
     public ResultVo permission(String userId) {
         if (userId.isEmpty()) {
@@ -106,6 +109,7 @@ public class BuyerUserController {
     }
 
     /**生成用户邀请口令*/
+    @CrossOrigin
     @GetMapping("/invite")
     public ResultVo invite(String userId) {
         if (userId.isEmpty()) {
@@ -128,6 +132,7 @@ public class BuyerUserController {
     }
 
     /**通过邀请口令认证*/
+    @CrossOrigin
     @PostMapping("/inviteBySeller")
     public ResultVo inviteBySeller(String sellerId, String userId) {
         if (userId.isEmpty() || sellerId.isEmpty()) {

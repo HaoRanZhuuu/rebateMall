@@ -4,9 +4,7 @@ import com.zhuhaoran.rebatemall.utils.FTPFileUtil;
 import com.zhuhaoran.rebatemall.utils.ResultVoUtil;
 import com.zhuhaoran.rebatemall.viewObject.ResultVo;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
@@ -25,6 +23,12 @@ import java.util.Map;
 @Controller
 public class UploadController {
 
+    @CrossOrigin
+    @GetMapping("/go")
+    public String go() {
+        return "upload.html";
+    }
+    @CrossOrigin
     @ResponseBody
     @PostMapping("/upload")
     /**文件上传*/

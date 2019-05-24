@@ -42,6 +42,7 @@ public class AddressInfoController {
     UserInfoServiceImpl userInfoService;
 
     /*获取收货地址表*/
+    @CrossOrigin
     @GetMapping("/list")
     public ResultVo<List<DeliveryAddress>> list(String userId) {
 
@@ -62,6 +63,7 @@ public class AddressInfoController {
     }
 
     /*获取默认收货地址*/
+    @CrossOrigin
     @GetMapping("/getDefault")
     public ResultVo<DeliveryAddress> getDefault(String userId) {
         if (StringUtils.isEmpty(userId)) {
@@ -78,6 +80,7 @@ public class AddressInfoController {
     }
 
     /*新增收货地址*/
+    @CrossOrigin
     @PostMapping("/add")
     public ResultVo<Map<String,String>> add(@Valid AddressForm addressForm, BindingResult bindingResult) {
 
@@ -110,6 +113,7 @@ public class AddressInfoController {
     }
 
     /*删除收货地址*/
+    @CrossOrigin
     @DeleteMapping("/delete")
     public ResultVo delete(String userId,String addressId) {
 
@@ -129,6 +133,7 @@ public class AddressInfoController {
     }
 
     /*修改收货地址*/
+    @CrossOrigin
     @PutMapping("/alter")
     public ResultVo alter(@Valid AddressForm addressForm, BindingResult bindingResult) {
 
@@ -153,6 +158,7 @@ public class AddressInfoController {
     }
 
     /*设为默认地址*/
+    @CrossOrigin
     @PutMapping("/setDefault")
     public ResultVo setDefault(String userId,String addressId) {
 
